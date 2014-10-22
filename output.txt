@@ -1,0 +1,7 @@
+http://dbpedia.org/resource/Michelle_Obama
+http://dbpedia.org/resource/Thursday_Next
+http://dbpedia.org/resource/United_States_Congress
+http://dbpedia.org/resource/Student
+http://dbpedia.org/resource/Packaging_and_labeling
+http://dbpedia.org/resource/Policy
+http://dbpedia.org/resource/Assistance_dog
