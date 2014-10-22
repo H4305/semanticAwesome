@@ -1,0 +1,29 @@
+{
+  "name": "semanticAwesome",
+  "version": "0.0.1",
+  "description": "Semantic Web university project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/H4305/semanticAwesome.git"
+  },
+  "keywords": [
+    "semantic",
+    "web",
+    "awesome",
+    "INSA",
+    "Lyon"
+  ],
+  "author": "H4305",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/H4305/semanticAwesome/issues"
+  },
+  "homepage": "https://github.com/H4305/semanticAwesome",
+  "dependencies": {
+    "express": "^4.9.8"
+  }
+}
