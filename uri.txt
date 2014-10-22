@@ -1,0 +1,73 @@
+{
+  "@text": "President Michelle Obama called Thursday on Congress to extend a tax break for students included in last year's economic stimulus package, arguing that the policy provides more generous assistance.",
+  "@confidence": "0.2",
+  "@support": "20",
+  "@types": "",
+  "@sparql": "",
+  "@policy": "whitelist",
+  "Resources":   [
+        {
+      "@URI": "http://dbpedia.org/resource/Michelle_Obama",
+      "@support": "321",
+      "@types": "DBpedia:OfficeHolder,DBpedia:Person,Schema:Person,Freebase:/award/ranked_item,Freebase:/award,Freebase:/organization/organization_member,Freebase:/organization,Freebase:/book/book_subject,Freebase:/book,Freebase:/celebrities/celebrity,Freebase:/celebrities,Freebase:/people/person,Freebase:/people,Freebase:/tv/tv_actor,Freebase:/tv,Freebase:/education/honorary_degree_recipient,Freebase:/education",
+      "@surfaceForm": "Michelle Obama",
+      "@offset": "10",
+      "@similarityScore": "0.1565164476633072",
+      "@percentageOfSecondRank": "-1.0"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Thursday_Next",
+      "@support": "73",
+      "@types": "Freebase:/book/book_character,Freebase:/book,Freebase:/fictional_universe/fictional_character,Freebase:/fictional_universe",
+      "@surfaceForm": "Thursday",
+      "@offset": "32",
+      "@similarityScore": "0.06055443361401558",
+      "@percentageOfSecondRank": "0.9254102610053044"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/United_States_Congress",
+      "@support": "7343",
+      "@types": "Freebase:/protected_sites/natural_or_cultural_preservation_agency,Freebase:/protected_sites,Freebase:/book/book_subject,Freebase:/book,Freebase:/award/award_presenting_organization,Freebase:/award,Freebase:/government/governmental_body,Freebase:/government,Freebase:/business/employer,Freebase:/business,Freebase:/architecture/architectural_structure_owner,Freebase:/architecture,Freebase:/people/appointer,Freebase:/people,Freebase:/book/author,Freebase:/media_common/dedicator,Freebase:/media_common",
+      "@surfaceForm": "Congress",
+      "@offset": "44",
+      "@similarityScore": "0.12385904043912888",
+      "@percentageOfSecondRank": "0.8654587120284979"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Student",
+      "@support": "1222",
+      "@types": "Freebase:/business/job_title,Freebase:/business,Freebase:/fictional_universe/fictional_job_title,Freebase:/fictional_universe,Freebase:/film/film_festival_focus,Freebase:/film,Freebase:/fictional_universe/character_occupation,Freebase:/people/profession,Freebase:/people,Freebase:/visual_art/art_subject,Freebase:/visual_art,Freebase:/fictional_universe/character_rank,Freebase:/media_common/quotation_subject,Freebase:/media_common,Freebase:/book/book_subject,Freebase:/book,DBpedia:TopicalConcept",
+      "@surfaceForm": "students",
+      "@offset": "79",
+      "@similarityScore": "0.1266261488199234",
+      "@percentageOfSecondRank": "-1.0"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Packaging_and_labeling",
+      "@support": "55",
+      "@types": "Freebase:/book/book_subject,Freebase:/book",
+      "@surfaceForm": "package",
+      "@offset": "130",
+      "@similarityScore": "0.07158408313989639",
+      "@percentageOfSecondRank": "0.4938189624674732"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Policy",
+      "@support": "484",
+      "@types": "Freebase:/media_common/quotation_subject,Freebase:/media_common,DBpedia:TopicalConcept",
+      "@surfaceForm": "policy",
+      "@offset": "156",
+      "@similarityScore": "0.1464773267507553",
+      "@percentageOfSecondRank": "-1.0"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Assistance_dog",
+      "@support": "67",
+      "@types": "DBpedia:TopicalConcept",
+      "@surfaceForm": "assistance",
+      "@offset": "186",
+      "@similarityScore": "0.08323978632688522",
+      "@percentageOfSecondRank": "-1.0"
+    }
+  ]
+}
