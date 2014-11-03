@@ -50,7 +50,42 @@ module.exports = (function() {
           return null;
         }		
         var content_text = object.text;
-        callback(content_text);
+		
+		var text_sliced = content_text.substring(0,500);
+
+
+		//Just in order to reduce the number of words
+
+		//console.log(text_sliced.length);
+		text_sliced = text_sliced.replace(/[\.,-\/#!$'"%\^&\*;:{}=\-_`~()]/g,"");
+		text_sliced = text_sliced.replace(/\b[^ ]{1,2}\b/g,"");
+		//console.log(text_sliced.length);
+
+		//console.log(text_sliced);
+		
+		/*
+		// We have to test this part
+		//
+		var htmlPageWords = [];
+		var table = text_sliced.split(" ");
+		//console.log(table.length);
+
+		table.forEach(function(word) {
+			if (htmlPageWords.indexOf(word) < 0) {
+				htmlPageWords.push(word);
+			}
+		});
+		var final_string;
+		htmlPageWords.forEach(function(word) {
+			final_string = word + " ";
+		});
+		*/
+		//content_text = final_string;
+		
+		// We have to test this part
+		//
+		
+        callback(text_sliced);
       });
     }
   }

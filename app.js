@@ -14,6 +14,13 @@ var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
 
 // Request routes
 
+app.get('/testalchemy', function (req, res) {
+	alchemy.getResources(url, function (content_text) {
+		console.log(content_text);
+		res.send(content_text);
+	});
+});
+
 app.get('/lala', function (req, res) {
 	var results = "";
 	google.getResources("aa", function (returne) {
@@ -50,27 +57,7 @@ app.get('/', function (req, res) {
 	    //Get the text
 		alchemy.getResources(link, function (content_text) {
 
-			var text_sliced = content_text.substring(0,500);
-			//console.log(text_sliced);
 
-			//Just in order to reduce the number of words
-			
-			//console.log(text_sliced.length);
-			text_sliced = text_sliced.replace(/[\.,-\/#!$'"%\^&\*;:{}=\-_`~()]/g,"");
-			text_sliced = text_sliced.replace(/\b[^ ]{1,2}\b/g,"");
-			//console.log(text_sliced.length);
-
-			// ?? Unusefull
-			var htmlPageWords = [];
-			var table = text_sliced.split(" ");
-			//console.log(table.length);
-
-			table.forEach(function(word) {
-				if (htmlPageWords.indexOf(word) < 0) {
-					htmlPageWords.push(word);
-				}
-
-			});
 			//console.log(htmlPageWords.length);
 			//console.log(htmlPageWords);
 			//Just in order to reduce the number of words ?? Unusefull
