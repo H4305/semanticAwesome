@@ -16,10 +16,32 @@ app.get('/', function (req, res) {
 		var text_sliced = content_text.substring(0,150);
 		console.log(text_sliced);
 		
+		
+		/* Just in order to reduce the number of words */
+		
+		
 		console.log(text_sliced.length);
 		text_sliced = text_sliced.replace(/[\.,-\/#!$'"%\^&\*;:{}=\-_`~()]/g,"");
 		text_sliced = text_sliced.replace(/\b[^ ]{1,2}\b/g,"");
 		console.log(text_sliced.length);
+		
+		var lala = [];
+		var table = text_sliced.split(" ");
+		console.log(table.length);
+		table.forEach(function(word) {
+			if (lala.indexOf(word) < 0) {
+				lala.push(word);
+			}
+
+		});
+		console.log(lala.length);
+		console.log(lala);
+		
+		
+		
+		/* Just in order to reduce the number of words */
+		
+		
 				
 		spotlight.getResources(text_sliced, function (URIList) {
 			var response = "";
