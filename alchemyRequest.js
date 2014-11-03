@@ -42,7 +42,6 @@ module.exports = (function() {
      */
 
     getResources: function getResources(url, callback) {
-      var resources = {};
       //Sends the request 
       requestAlchemy(url, function (object) {
         if(object == null) {
@@ -51,7 +50,7 @@ module.exports = (function() {
         }		
         var content_text = object.text;
 		
-		var text_sliced = content_text.substring(0,500);
+		var text_sliced = content_text.substring(0,150);
 
 
 		//Just in order to reduce the number of words
