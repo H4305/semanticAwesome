@@ -1,6 +1,7 @@
 var express = require('express');
 var spotlight = require('./spotlightRequest.js');
 var alchemy = require('./alchemyRequest.js');
+var google = require('./googleRequest.js');
 var app = express();
 
 var gkey = "AIzaSyDTKQHpVvvyAiVBF92GH4E0CE-fHSkr16E";
@@ -12,6 +13,15 @@ var text = "Nice is a large city in France on the French Riviera. It's a popular
 var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
 
 // Request routes
+
+app.get('/lala', function (req, res) {
+	var results = "";
+	google.getResources("aa", function (returne) {
+
+		results += returne + "<br>";
+	});
+	res.send(results);
+});
 
 app.get('/', function (req, res) {
 
