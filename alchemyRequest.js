@@ -2,24 +2,20 @@ var request = require('request');
 
 module.exports = (function() {
 
-  const RESOURCE_URI = "http://dbpedia.org/resource/";
-  const DBPEDIA_SPOTLIGHT = "http://spotlight.dbpedia.org/rest/candidates";
-  const BASE_CONFIDENCE = "0.3";
+  const ALCHEMY = "http://access.alchemyapi.com/calls/url/URLGetText?apikey=3d94ba5add4573f225632a2dda7ca1d76f89d5ca";
 
-  var confidence = BASE_CONFIDENCE;
-
-  /* requestSpotlight
+  /* requestAlchemy
    * Sends a request to DBpedia spotlight.
-   * @param text the text argument
+   * @param url the url argument
    * @param callback the callback function to execute when ready
    */
 
-  function requestSpotlight(text, callback) {
+  function requestAlchemy(url, callback) {
 
-    var args = "?text="+ encodeURI(text) + "&confidence=" + confidence;
+    var args = "&url="+ encodeURI(url) + "&outputMode=json";
 
     request({
-      uri: DBPEDIA_SPOTLIGHT + args,
+      uri: ALCHEMY + args,
       method: "GET",
       timeout: 15000,
       followRedirect: true,
@@ -44,7 +40,7 @@ module.exports = (function() {
     },
 
     /* getResources
-     * Sends a request to DBpedia spotlight using requestSpotlight function.
+     * Sends a request to DBpedia spotlight using requestAlchemy function.
      * @param text The text to annotate
      * @return A list with all the resource URIs
      */
@@ -52,13 +48,22 @@ module.exports = (function() {
     getResources: function getResources(text, callback) {
       var resources = {};
       //Sends the request 
-      requestSpotlight(text, function (object) {
+      requestAlchemy(text, function (object) {
         if(object == null) {
           console.log("Empty object cant be annotated.");
           return null;
         }
-        var annotation = object.annotation;
-        annotation.surfaceForm.forEach(function (data) {
+		
+		/*console.log(object);
+		var URIList = [];
+		URIList.push("bonjour");*/
+		
+        var text = object.text;
+		
+		
+		
+		
+        /*annotation.surfaceForm.forEach(function (data) {
           if(data.resource) {
             //If it's an array, length will not be undefined
             if(data.resource.length !== undefined) {
@@ -71,14 +76,14 @@ module.exports = (function() {
               resources[data.resource["@uri"]] = true;
             }
           }
-        });
-        var URIList = [];
+        });*/
+        /*var URIList = [];
         //Iterates over all object keys and add them to the list
         Object.keys(resources).forEach(function(resource) {
-          URIList.push(RESOURCE_URI + resource);
-        });
-        console.log(URIList);
-        callback(URIList);
+          URIList.push(resource);
+        });*/
+        //console.log(URIList);
+        callback(text);
       });
     }
   }
