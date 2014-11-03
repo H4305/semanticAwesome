@@ -1,0 +1,1421 @@
+@prefix dbpprop:	<http://dbpedia.org/property/> .
+@prefix dbpedia:	<http://dbpedia.org/resource/> .
+dbpedia:Hans-Georg_Gadamer	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia .
+@prefix dbpedia-owl:	<http://dbpedia.org/ontology/> .
+dbpedia:Hans-Georg_Gadamer	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Theodor_W._Adorno>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Franz_Brentano	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_Simmel	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Anton_de_Waal	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Erich_Priebke	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Joseph_Freiherr_von_Eichendorff	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Otto_Hahn	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_August_Senff	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/William,_Prince_of_Wied>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Bohuslav,_Count_Chotek_of_Chotkow_and_Wognin>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns4:	<http://fr.dbpedia.org/resource/> .
+ns4:Royaume_de_Prusse	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns5:	<http://de.dbpedia.org/resource/> .
+ns5:Königreich_Preußen	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns6:	<http://wikidata.dbpedia.org/resource/> .
+ns6:Q27306	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns7:	<http://cs.dbpedia.org/resource/> .
+ns7:Pruské_království	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns8:	<http://el.dbpedia.org/resource/> .
+ns8:Βασίλειο_της_Πρωσίας	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns9:	<http://es.dbpedia.org/resource/> .
+ns9:Reino_de_Prusia	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns10:	<http://eu.dbpedia.org/resource/> .
+ns10:Prusiako_Erresuma	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns11:	<http://id.dbpedia.org/resource/> .
+ns11:Kerajaan_Prusia	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns12:	<http://it.dbpedia.org/resource/> .
+ns12:Regno_di_Prussia	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns13:	<http://ja.dbpedia.org/resource/> .
+ns13:プロイセン王国	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns14:	<http://ko.dbpedia.org/resource/> .
+ns14:프로이센_왕국	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns15:	<http://nl.dbpedia.org/resource/> .
+ns15:Koninkrijk_Pruisen	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns16:	<http://pl.dbpedia.org/resource/> .
+ns16:Królestwo_Prus	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns17:	<http://pt.dbpedia.org/resource/> .
+ns17:Reino_da_Prússia	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix ns19:	<http://en.wikipedia.org/wiki/> .
+ns19:Kingdom_of_Prussia	foaf:primaryTopic	dbpedia:Kingdom_of_Prussia .
+dbpedia:Felix_Klein	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Gustav_Adolf_von_G%C3%B6tzen>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Marx	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Arthur_Moritz_Schoenflies	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Harries	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolf_Berlin	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Hermann_Cohen_(Carmelite)>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ernst_Chladni	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_Klaeber	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Helmuth_von_Pannwitz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_von_Eichhorn	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Augustus_William_of_Prussia	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hans_Albrecht_von_Barfus	dbpedia-owl:stateOfOrigin	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:nationality	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:nationality	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_von_Clausewitz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Joachim_von_Ribbentrop	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Jakob_von_Wunsch	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Albert_Abraham_Michelson	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_von_der_Lieth-Thomsen	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Erich_Koch	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walter_Gorn	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Jan_Henryk_D%C4%85browski>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Eduard_von_Lewinski	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_August_Ferdinand_von_Borcke	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Hanke	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/R%C3%BCdiger_von_der_Goltz>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gerhard_Flesch	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hugo_von_Pohl	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Alfred_von_Tirpitz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gottlieb_Graf_von_Haeseler	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Leo_Geyr_von_Schweppenburg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_von_der_Marwitz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gertrud_von_Le_Fort	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Victor_II,_Duke_of_Ratibor>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ludwig_von_Reuter	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Otto_Lancelle	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_August_of_W%C3%BCrttemberg>	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Waldemar_Magunia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Johannes_B%C3%B6lter>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Fritz-Hubert_Gr%C3%A4ser>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_von_Schnitzler	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ludwig_Guttmann	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Hans-J%C3%BCrgen_von_Arnim>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ludwig_von_Wallmoden-Gimborn	dbpprop:allegiance	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/G%C3%BCnther_von_Reibnitz>	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Recknagel	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Henrietta_of_Nassau-Weilburg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/L%C3%BCtzow_Free_Corps>	dbpprop:allegiance	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:August_Fick	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolf_Carnap	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Leonhard_Euler	dbpedia-owl:residence	dbpedia:Kingdom_of_Prussia .
+dbpedia:Emanuel_Lasker	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Wilhelm_Pieck	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Otto_Stern	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Norbert_Elias	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Friedrich_Krummnow	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolf_Clausius	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Martin_Augustin_Scholz	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hans-Christoph_Seebohm	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Benno_von_Arent	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Walter_von_B%C3%BClow-Bothkamp>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Princess_Karoline_Mathilde_of_Schleswig-Holstein-Sonderburg-Gl%C3%BCcksburg>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Max_Valentiner	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Wilhelm_Friedrich,_Duke_of_Schleswig-Holstein>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Mikhail_Kutuzov	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Marie_of_the_Netherlands	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Augusta_Victoria_of_Schleswig-Holstein	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Armgard_of_Sierstorpff-Cramm	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:David_Ruhnken	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_60	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_83	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_70	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_66	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_56	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_74	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_61	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hans_Klein	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_71	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_58	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_65	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_69	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_73	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_82	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_87	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_67	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_57	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_62	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_75	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hans_Gaede	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_63	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_85	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_68	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_86	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_89	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_59	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_81	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_90	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Maximilian_von_Laffert	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jagdstaffel_88	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Baroness_Hedwig_of_Sierstorpff-Driburg	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Baron_Aschwin_of_Sierstorpff-Cramm	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Friedrich_Wilhelm,_Duke_of_Schleswig-Holstein-Sonderburg-Gl%C3%BCcksburg>	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Louise_Lehzen	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Stanis%C5%82aw_Przybyszewski>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prussian_Navy	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walter_Greiling	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Anna_Dorothea_Therbusch	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Leo_Strauss	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rhine_Province	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+dbpedia:Battle_of_Katzbach	dbpedia-owl:place	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Count_of_Lippe-Biesterfeld	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+@prefix ns20:	<http://af.dbpedia.org/resource/> .
+ns20:Koninkryk_Pruise	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns21:	<http://an.dbpedia.org/resource/> .
+ns21:Reino_de_Prusia	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns22:	<http://ar.dbpedia.org/resource/> .
+ns22:مملكة_بروسيا	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns23:	<http://az.dbpedia.org/resource/> .
+ns23:Prussiya	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+<http://ba.dbpedia.org/resource/\u041F\u0440\u0443\u0441\u0441\u0438\u044F_(\u043A\u043E\u0440\u043E\u043B\u043B\u0435\u043A)>	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns24:	<http://be.dbpedia.org/resource/> .
+ns24:Каралеўства_Прусія	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns25:	<http://bg.dbpedia.org/resource/> .
+ns25:Кралство_Прусия	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns26:	<http://br.dbpedia.org/resource/> .
+ns26:Rouantelezh_Prusia	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns27:	<http://da.dbpedia.org/resource/> .
+ns27:Kongeriget_Preussen	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns28:	<http://diq.dbpedia.org/resource/> .
+ns28:Qraliya_Prusya	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns29:	<http://eo.dbpedia.org/resource/> .
+ns29:Reĝlando_Prusio	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns30:	<http://et.dbpedia.org/resource/> .
+ns30:Preisi_kuningriik	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns31:	<http://fa.dbpedia.org/resource/> .
+ns31:پادشاهی_پروس	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns32:	<http://fi.dbpedia.org/resource/> .
+ns32:Preussin_kuningaskunta	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns33:	<http://gl.dbpedia.org/resource/> .
+ns33:Reino_de_Prusia	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns34:	<http://hr.dbpedia.org/resource/> .
+ns34:Kraljevina_Pruska	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns35:	<http://hu.dbpedia.org/resource/> .
+ns35:Porosz_Királyság	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns36:	<http://hy.dbpedia.org/resource/> .
+ns36:Պրուսիայի_թագավորություն	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns37:	<http://lt.dbpedia.org/resource/> .
+ns37:Prūsijos_karalystė	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns38:	<http://lv.dbpedia.org/resource/> .
+ns38:Prūsijas_karaliste	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns39:	<http://mk.dbpedia.org/resource/> .
+ns39:Кралство_Прусија	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns40:	<http://mr.dbpedia.org/resource/> .
+ns40:प्रशियाचे_राजतंत्र	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns41:	<http://nn.dbpedia.org/resource/> .
+ns41:Kongedømet_Preussen	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns42:	<http://no.dbpedia.org/resource/> .
+ns42:Kongeriket_Preussen	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns43:	<http://ro.dbpedia.org/resource/> .
+ns43:Regatul_Prusiei	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+<http://ru.dbpedia.org/resource/\u041F\u0440\u0443\u0441\u0441\u0438\u044F_(\u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E)>	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns44:	<http://ta.dbpedia.org/resource/> .
+ns44:பிரசியா	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns45:	<http://th.dbpedia.org/resource/> .
+ns45:ราชอาณาจักรปรัสเซีย	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns46:	<http://tr.dbpedia.org/resource/> .
+ns46:Prusya_Krallığı	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns47:	<http://uk.dbpedia.org/resource/> .
+ns47:Королівство_Пруссія	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns48:	<http://ur.dbpedia.org/resource/> .
+ns48:مملکت_پروشیا	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns49:	<http://uz.dbpedia.org/resource/> .
+ns49:Prussiya_qirolligi	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns50:	<http://vi.dbpedia.org/resource/> .
+ns50:Vương_quốc_Phổ	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns51:	<http://war.dbpedia.org/resource/> .
+ns51:Ginhadian_han_Prusya	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns52:	<http://yo.dbpedia.org/resource/> .
+ns52:Ilẹ̀ọba_Prússíà	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns53:	<http://zh.dbpedia.org/resource/> .
+ns53:普魯士王國	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+@prefix ns54:	<http://zh_min_nan.dbpedia.org/resource/> .
+ns54:Preußen_Ông-kok	owl:sameAs	dbpedia:Kingdom_of_Prussia .
+dbpedia:Brandenburg-Prussia	dbpprop:eventEnd	dbpedia:Kingdom_of_Prussia .
+dbpedia:Margraviate_of_Brandenburg	dbpprop:event	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/William_I,_German_Emperor>	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Frederick_of_Prussia_(1794%E2%80%931863)>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_Freiherr_von_Gayl	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Ludvig_Engel	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Friedrich_Hennert	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_William_I_of_Prussia	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Heinrich_LXIII,_Prince_Reuss_of_K%C3%B6stritz>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Wilhelm_von_Stutterheim	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Peter_Simon_Pallas	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walther_Rathenau	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_William_II_of_Prussia	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Wilhelm_Borchardt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Joachim_Peiper	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Ludwig_Adolf_Wilhelm_von_L%C3%BCtzow>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Adalbert_of_Prussia_(1811%E2%80%931873)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Paul_Richard_Heinrich_Blasius	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Hugo_Preu%C3%9F>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Max_von_Fabeck	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jules_Greenbaum	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Joseph_Mendelssohn	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Leo_von_Caprivi	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Kurt_Eisner	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Henry_of_Prussia_(1862%E2%80%931929)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hans_Hermann_von_Katte	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Wilhelm_Beer	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Louis_Schneider_(actor)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:George_V_of_Hanover	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Luise_K%C3%A4hler>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Louise_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Anna_Amalia,_Abbess_of_Quedlinburg>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Friedrich_Karl_of_Prussia_(1828%E2%80%931885)>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Wilhelm_Foerster	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Werner_Damsch	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Alexandrine_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Francis_Lieber	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Friedrich_Leopold_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Robert_Eduard_von_Hartmann	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Magnus_von_Eberhardt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Friedrich_August_Rammelsberg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gustav_Rose	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Alexander_of_Prussia	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Wilhelm_Grimm	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:William_I_of_the_Netherlands	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Wilhelm_Traube	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Wilhelm_Vogel	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_Wilhelm_Friedrich_Hegel	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jacob_Grimm	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Gottlieb_Fichte	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Franz_Heinrich_Schwechten	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_I_of_Prussia	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Heinrich_Lambert	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:residence	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:residence	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Weierstrass	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Xaver_Scharwenka	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Schwarz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Carl_von_Savigny	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Schleiermacher	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolf_Arnold_Nieberding	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Gustav_Jacob_Jacobi	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Heinrich_von_Kleist	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Lotze	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Adolf_Trendelenburg	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Antoni_Radziwi%C5%82%C5%82>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Christian_Leopold_von_Buch	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Paul_Gottlieb_Nipkow	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Adolf_Engler	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Lazarus_Fuchs	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Ottomar_Ansch%C3%BCtz>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Albrecht_von_Roon	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ignatz_Urban	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Kuno_von_Westarp	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Eduard_von_Simson	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Eduard_Heinrich_von_Flottwell	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Wilhelm_Leopold_Krug	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Moritz_Lewitt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walter_von_Brockdorff-Ahlefeldt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ludwig_von_Wolzogen	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Legien	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Charlotte_von_Kalb	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Julien_Offray_de_La_Mettrie	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Paul_Levi	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Adolf_Pinner	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Albert_Mosse	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walter_Leistikow	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Paul_von_Krause	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Raid_on_Berlin	dbpprop:place	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:place	dbpedia:Kingdom_of_Prussia .
+dbpedia:Adolf_Heinrich_von_Arnim-Boitzenburg	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Wilhelm_Marpurg	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gustav_Kirchhoff	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Max_von_Laue	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jeremias_Benjamin_Richter	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Friedrich_Sigismund_of_Prussia_(1891%E2%80%931927)>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Baldur_von_Schirach	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_William_IV_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Princess_Louise_of_Prussia_(1808%E2%80%931870)>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Arnold_Genthe	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Meinecke	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Emil_K%C3%B6rner>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Otto_von_Oehlschl%C3%A4ger>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Bernhard_Lichtenberg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Siemens	dbpedia-owl:foundationPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Albin_Ma%C5%82ysiak>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Otto_von_Bismarck	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Victor_I,_Duke_of_Ratibor>	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:August_Bebel	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Wilhelm_of_Prussia_(1906%E2%80%931940)>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gustav_Klaudat	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_von_Boeselager	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Emil_Wiechert	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:House_of_Hohenzollern	dbpprop:titles	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_von_Strantz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Anne-Marie_von_Schutzbar_genannt_Milchling	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_von_Kuhl	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Marie_Adelheid_of_Lippe-Biesterfeld	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Bruno_von_Mudra	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_von_Plettenberg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Albert_Friedrich_Speer	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hans_von_Gronau	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Fritz_Gajewski	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Max_von_Bahrfeldt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walter_von_Unruh	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Ludwig_von_Schr%C3%B6der>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ewald_von_Lochow	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hans_von_Plessen	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Franz_Mertens	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Johannes_Thiele_(chemist)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Maximilian_of_Wied-Neuwied	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Moritz_von_Jacobi	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Gottlieb_Kugelann	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Kasiski	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hugo_Junkers	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Clara_Immerwahr	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Helene_Demuth	dbpedia-owl:stateOfOrigin	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:nationality	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:nationality	dbpedia:Kingdom_of_Prussia .
+dbpedia:Richard_Abegg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Eduard_R%C3%BCchardt>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Elimar_Klebs	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_Klebs	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Peter_Strasser	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Wernicke	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ernst_Moritz_Hess	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Eilhard_Mitscherlich	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Bessel	dbpedia-owl:nationality	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:residence	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:residence	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Friedrich_Louis_Dobermann	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duke_Nicholas_of_W%C3%BCrttemberg>	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Joachim_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Countess_Friederike_of_Schlieben	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Heinrich_Scherk	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johannes_von_der_Marwitz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Johann_Friedrich_August_G%C3%B6ttling>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Amalia_von_Dyhrn	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Caroline_Rudolphi	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Georg_Moritz,_Hereditary_Prince_of_Saxe-Altenburg>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Benjamin_Bathurst_(diplomat)>	dbpprop:disappearedPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Grand_Duchy_of_Posen	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walter_Simons	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Maximilian_von_Prittwitz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:August_von_Mackensen	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prussian_Army	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Paul_L%C3%B6be>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolf_Diels	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Heinrich_Ernst_G%C3%B6ring>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hjalmar_Schacht	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ernst_Ziehm	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Curt_von_Morgen	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Max_Stirner	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Province_of_Silesia	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+dbpedia:Edith_Stein	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Josef_Veltjens	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duke_Eugen_of_W%C3%BCrttemberg_(1788%E2%80%931857)>	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ludwig_Hanstein	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Ludwig_Wilhelm,_Prince_of_Bentheim_and_Steinfurt>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Erich_Mielke	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Christian_Andreas_K%C3%A4sebier>	dbpprop:allegiance	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_the_Great	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Frederick_III,_German_Emperor>	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Adolphe,_Grand_Duke_of_Luxembourg>	dbpedia-owl:successor	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_William_III_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Louise_of_Mecklenburg-Strelitz	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Count_Karl_Leopold_von_Schlieben	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Heinrich_von_Sybel	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Christian_August_II,_Duke_of_Schleswig-Holstein-Sonderburg-Augustenburg>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johann_Friedrich_Struensee	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Louise_Margaret_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Eugen_Sandow	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Christian_Ehrenfried_Weigel	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Julius,_Count_of_Lippe-Biesterfeld>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Karl,_Duke_of_Schleswig-Holstein-Sonderburg-Gl%C3%BCcksburg>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Wilhelm_Windelband	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Oskar_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Paul_R%C3%A9e>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duke_Eugen_of_W%C3%BCrttemberg_(1846%E2%80%931877)>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duke_Eugen_of_W%C3%BCrttemberg_(1820%E2%80%931875)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jean_Louis_Debilly	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Arm%C3%A9e_des_%C3%89migr%C3%A9s>	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jean-Paul_Marat	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Moritz_Moszkowski	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolph_Koenig	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:August_Bier	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolf_Virchow	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:nationality	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:nationality	dbpedia:Kingdom_of_Prussia .
+dbpedia:Battle_of_Friedland	dbpprop:place	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:place	dbpedia:Kingdom_of_Prussia .
+dbpedia:Wilhelm_Eduard_Weber	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Edwin_Klebs	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Mathilde_Franziska_Anneke	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Kessler	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Anna_Anderson	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Arthur_Rahn	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ernst_Cassirer	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Karl_B%C3%BClowius>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Schubert	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ferdinand_Fabra	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Pascual_Jordan	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ferdinand_Minding	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Heinrich_I_Reuss_of_K%C3%B6stritz>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Netze_District	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+dbpedia:Margot_Benary-Isbert	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Marie_Elisabeth_of_Saxe-Meiningen	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Ernest_II,_Count_of_Lippe-Biesterfeld>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/E._T._A._Hoffmann>	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Paul_Ehrlich	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Charles_Louis,_Duke_of_Schleswig-Holstein-Sonderburg-Beck>	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duchess_Agnes_of_W%C3%BCrttemberg>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Countess_Katharina_Dorothea_Finck_of_Finckenstein	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gustav_Heinemann	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Grassmann	dbpedia-owl:residence	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:residence	dbpedia:Kingdom_of_Prussia .
+dbpedia:Silvio_Gesell	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Helmut_Hasse	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prussia_(disambiguation)>	dbpedia-owl:wikiPageDisambiguates	dbpedia:Kingdom_of_Prussia .
+dbpedia:Theodor_Billroth	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:James_Wirth	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Leopold_Kronecker	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Wilhelm_D%C3%B6rpfeld>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Georg_Heym	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gerhart_Hauptmann	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/William_Frederick,_Prince_of_Wied>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prussia	dbpprop:event	dbpedia:Kingdom_of_Prussia .
+dbpedia:Michael_Andreas_Barclay_de_Tolly	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Alois_Alzheimer	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Heinrich_Schr%C3%B6ter>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Akiva_Eger	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Augustin_Theiner	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Marie_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:William_Cockerill	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Paul_Hensel_(politician)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Philip,_Prince_of_Eulenburg>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Alexis,_Prince_of_Bentheim_and_Steinfurt>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gotthold_Eisenstein	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ernst_Kummer	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Moshe_Smoira	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Julius_von_Sachs	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/George_I,_Prince_of_Waldeck_and_Pyrmont>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Catherine_the_Great	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Maria_Feodorovna_(Sophie_Dorothea_of_W%C3%BCrttemberg)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Schmitt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:South_Prussia	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+dbpedia:New_East_Prussia	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+dbpedia:Province_of_Prussia	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Siege_of_Magdeburg_(1806)>	dbpprop:place	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:place	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/K%C3%B6nigreich_Preu%C3%9Fen>	dbpedia-owl:wikiPageRedirects	dbpedia:Kingdom_of_Prussia .
+dbpedia:Koenigreich_Preussen	dbpedia-owl:wikiPageRedirects	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prussian_Kingdom	dbpedia-owl:wikiPageRedirects	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prussian_kingdom	dbpedia-owl:wikiPageRedirects	dbpedia:Kingdom_of_Prussia .
+dbpedia:Royal_Prussian_States	dbpedia-owl:wikiPageRedirects	dbpedia:Kingdom_of_Prussia .
+dbpedia:The_Kingdom_of_Prussia	dbpedia-owl:wikiPageRedirects	dbpedia:Kingdom_of_Prussia .
+dbpedia:Arthur_Schopenhauer	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix yago:	<http://dbpedia.org/class/yago/> .
+dbpedia:Kingdom_of_Prussia	rdf:type	yago:YagoGeoEntity ,
+		yago:YagoPermanentlyLocatedEntity ,
+		yago:PhysicalEntity100001930 ,
+		yago:Object100002684 .
+@prefix ns57:	<http://www.opengis.net/gml/> .
+dbpedia:Kingdom_of_Prussia	rdf:type	ns57:_Feature ,
+		yago:StatesOfTheNorthGermanConfederation ,
+		yago:StatesOfTheGermanEmpire ,
+		dbpedia-owl:Country ,
+		yago:Country108544813 .
+@prefix d0:	<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+dbpedia:Kingdom_of_Prussia	rdf:type	d0:Location ,
+		yago:StatesOfTheGermanConfederation ,
+		yago:StatesAndTerritoriesEstablishedIn1701 ,
+		owl:Thing .
+@prefix ns59:	<http://schema.org/> .
+dbpedia:Kingdom_of_Prussia	rdf:type	ns59:Country ,
+		ns59:Place .
+@prefix ns60:	<http://umbel.org/umbel/rc/> .
+dbpedia:Kingdom_of_Prussia	rdf:type	ns60:Country ,
+		yago:YagoLegalActorGeo .
+@prefix ns61:	<http://dbpedia.org/ontology/Wikidata:> .
+dbpedia:Kingdom_of_Prussia	rdf:type	ns61:Q532 ,
+		dbpedia-owl:Place ,
+		dbpedia-owl:PopulatedPlace ,
+		yago:AdministrativeDistrict108491826 ,
+		yago:Region108630985 ,
+		yago:Location100027167 ,
+		yago:District108552138 ;
+	owl:sameAs	ns11:Kerajaan_Prusia ,
+		ns10:Prusiako_Erresuma ,
+		ns24:Каралеўства_Прусія ,
+		ns23:Prussiya ,
+		ns27:Kongeriget_Preussen ,
+		ns25:Кралство_Прусия ,
+		ns38:Prūsijas_karaliste ,
+		ns35:Porosz_Királyság ,
+		ns48:مملکت_پروشیا ,
+		ns30:Preisi_kuningriik ,
+		ns31:پادشاهی_پروس ,
+		ns51:Ginhadian_han_Prusya .
+@prefix ns62:	<http://yago-knowledge.org/resource/> .
+dbpedia:Kingdom_of_Prussia	owl:sameAs	ns62:Kingdom_of_Prussia ,
+		ns20:Koninkryk_Pruise .
+@prefix ns63:	<http://wikidata.org/entity/> .
+dbpedia:Kingdom_of_Prussia	owl:sameAs	ns63:Q27306 ,
+		ns42:Kongeriket_Preussen ,
+		ns6:Q27306 ,
+		ns34:Kraljevina_Pruska ,
+		ns32:Preussin_kuningaskunta ,
+		ns7:Pruské_království ,
+		ns16:Królestwo_Prus ,
+		ns28:Qraliya_Prusya ,
+		ns53:普魯士王國 ,
+		ns13:プロイセン王国 ,
+		ns41:Kongedømet_Preussen ,
+		<http://ba.dbpedia.org/resource/\u041F\u0440\u0443\u0441\u0441\u0438\u044F_(\u043A\u043E\u0440\u043E\u043B\u043B\u0435\u043A)> ,
+		ns22:مملكة_بروسيا ,
+		ns14:프로이센_왕국 ,
+		ns45:ราชอาณาจักรปรัสเซีย ,
+		ns50:Vương_quốc_Phổ ,
+		<http://rdf.freebase.com/ns/m.01k6y1> ,
+		ns15:Koninkrijk_Pruisen ,
+		ns36:Պրուսիայի_թագավորություն ,
+		ns4:Royaume_de_Prusse ,
+		ns17:Reino_da_Prússia ,
+		ns52:Ilẹ̀ọba_Prússíà ,
+		ns44:பிரசியா ,
+		ns39:Кралство_Прусија ,
+		ns40:प्रशियाचे_राजतंत्र ,
+		<http://ru.dbpedia.org/resource/\u041F\u0440\u0443\u0441\u0441\u0438\u044F_(\u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E)> ,
+		ns21:Reino_de_Prusia ,
+		dbpedia:Kingdom_of_Prussia ,
+		ns37:Prūsijos_karalystė ,
+		ns47:Королівство_Пруссія ,
+		ns8:Βασίλειο_της_Πρωσίας ,
+		ns12:Regno_di_Prussia ,
+		ns49:Prussiya_qirolligi ,
+		ns33:Reino_de_Prusia ,
+		ns9:Reino_de_Prusia ,
+		ns46:Prusya_Krallığı ,
+		ns29:Reĝlando_Prusio ,
+		ns26:Rouantelezh_Prusia ,
+		ns54:Preußen_Ông-kok ,
+		ns5:Königreich_Preußen ,
+		ns43:Regatul_Prusiei .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbpedia:Kingdom_of_Prussia	rdfs:label	"Regno di Prussia"@it ,
+		"Koninkrijk Pruisen"@nl ,
+		"Kr\u00F3lestwo Prus"@pl ,
+		"Reino de Prusia"@es ,
+		"\u666E\u9B6F\u58EB\u738B\u570B"@zh ,
+		"\u0645\u0645\u0644\u0643\u0629 \u0628\u0631\u0648\u0633\u064A\u0627"@ar ,
+		"Reino da Pr\u00FAssia"@pt ,
+		"Kingdom of Prussia"@en ,
+		"K\u00F6nigreich Preu\u00DFen"@de ,
+		"\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD"@ja ,
+		"\u041F\u0440\u0443\u0441\u0441\u0438\u044F (\u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E)"@ru ,
+		"Royaume de Prusse"@fr .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+dbpedia:Kingdom_of_Prussia	dcterms:subject	<http://dbpedia.org/resource/Category:1918_disestablishments> .
+@prefix category:	<http://dbpedia.org/resource/Category:> .
+dbpedia:Kingdom_of_Prussia	dcterms:subject	category:States_and_territories_established_in_1701 ,
+		category:Former_kingdoms ,
+		category:Kingdom_of_Prussia ,
+		category:States_of_the_German_Empire ,
+		category:States_of_the_North_German_Confederation ,
+		category:States_of_the_German_Confederation .
+@prefix grs:	<http://www.georss.org/georss/> .
+dbpedia:Kingdom_of_Prussia	grs:point	"52.516666666666666 13.4" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix geo:	<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+dbpedia:Kingdom_of_Prussia	geo:lat	"52.5167"^^xsd:float ;
+	geo:long	"13.4"^^xsd:float ;
+	dbpprop:house	"Abgeordnetenhaus"@en ,
+		"Herrenhaus"@en ;
+	foaf:depiction	<http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Prussia_1892-1918.svg> ;
+	foaf:name	"K\u00F6nigreich Preu\u00DFen"@en ,
+		"Prussia"@en ,
+		"Kingdom of Prussia"@en .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbpedia:Kingdom_of_Prussia	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Kingdom_of_Prussia?oldid=605888978> ;
+	rdfs:comment	"Kr\u00F3lestwo Prus (niem. K\u00F6nigreich Preu\u00DFen) \u2013 oficjalny tytu\u0142 pa\u0144stwa prusko-brandenburskiego po 1701, wraz z pozosta\u0142ymi domenami dynastii Hohenzollern\u00F3w w latach 1701-1918, od 1871 wchodz\u0105ce w sk\u0142ad Cesarstwa Niemieckiego. Terytorium Kr\u00F3lestwa Prus obejmowa\u0142o dwie trzecie ca\u0142ego obszaru Cesarstwa Niemieckiego."@pl ,
+		"\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FDK\u00F6nigreich Preu\u00DFen</dd>\u56FD\u6B4C: \u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u56FD\u6B4C\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u6B4C\uFF08\u30C9\u30A4\u30C4\u8A9E : Preu\u00DFenlied\uFF09\u7687\u5E1D\u965B\u4E0B\u4E07\u6B73\uFF08\u30C9\u30A4\u30C4\u8A9E : Heil dir im Siegerkranz\uFF09\uFF08\u5171\u306B\u975E\u516C\u5F0F\uFF09\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u4F4D\u7F6E\u30C9\u30A4\u30C4\u5E1D\u56FD\u6642\u4EE3\u306E\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\u9818\uFF08\u7DD1\uFF091\u5317\u30C9\u30A4\u30C4\u9023\u90A6\u3068\u30C9\u30A4\u30C4\u5E1D\u56FD\uFF081867\u5E74-1918\u5E74\uFF09\u306E\u6642\u4EE3\u306F\u3001\u30D7\u30ED\u30A4\u30BB\u30F3\u5BB0\u76F8\u306F\u30C9\u30A4\u30C4\u5BB0\u76F8\u3092\u517C\u8077</dl>\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\uFF08\u30D7\u30ED\u30A4\u30BB\u30F3\u304A\u3046\u3053\u304F\u3001\u72EC: K\u00F6nigreich Preu\u00DFen\uFF09\u306F\u3001\u30DB\u30FC\u30A8\u30F3\u30C4\u30A9\u30EC\u30EB\u30F3\u5BB6\u306E\u541B\u4E3B\u304C\u7D71\u6CBB\u3057\u305F\u30E8\u30FC\u30ED\u30C3\u30D1\u306E\u738B\u56FD\u3002\u73FE\u5728\u306E\u30C9\u30A4\u30C4\u5317\u90E8\u304B\u3089\u30DD\u30FC\u30E9\u30F3\u30C9\u897F\u90E8\u306B\u304B\u3051\u3066\u3092\u9818\u571F\u3068\u3057\u3001\u9996\u90FD\u306F\u30D9\u30EB\u30EA\u30F3\u306B\u3042\u3063\u305F\u3002"@ja ,
+		"O Reino da Pr\u00FAssia (em alem\u00E3o: K\u00F6nigreich Preu\u00DFen) foi um reino alem\u00E3o de 1701 a 1918 e, a partir de 1871, o principal Estado-membro do Imp\u00E9rio Alem\u00E3o, compreendendo quase dois ter\u00E7os da \u00E1rea do Imp\u00E9rio. Seu nome originou-se do territ\u00F3rio da Pr\u00FAssia, embora sua base de poder tenha sido Brandemburgo."@pt ,
+		"Il Regno di Prussia (in tedesco: K\u00F6nigreich Preu\u00DFen) \u00E8 stato un regno tedesco esistito dal 1701 al 1918. Alla caduta della monarchia in Germania, alla fine della prima guerra mondiale, il regno costituiva circa i due terzi dell'Impero tedesco."@it ,
+		"\u0645\u0645\u0644\u0643\u0629 \u0628\u0631\u0648\u0633\u064A\u0627 (\u0628\u0627\u0644\u0623\u0644\u0645\u0627\u0646\u064A\u0629: K\u00F6nigreich Preu\u00DFen) \u0645\u0645\u0644\u0643\u0629 \u0623\u0644\u0645\u0627\u0646\u064A\u0629 \u062A\u0648\u0627\u062C\u062F\u062A \u0645\u0646\u0630 \u0639\u0627\u0645 1701 \u062D\u062A\u0649 \u0639\u0627\u0645 1918. \u0634\u0643\u0644\u062A \u0623\u0631\u0627\u0636\u064A \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u062B\u0644\u062B\u064A \u0645\u0633\u0627\u062D\u0629 \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064A\u0629 \u0627\u0644\u0623\u0644\u0645\u0627\u0646\u064A\u0629."@ar ,
+		"\u666E\u9B6F\u58EB\u738B\u570B\uFF08\u5FB7\u8BED\uFF1AK\u00F6nigreich Preu\u00DFen\uFF09\u662F\u4E00\u500B\u4F4D\u65BC\u73FE\u4ECA\u5FB7\u570B\u548C\u6CE2\u862D\u5883\u5167\u7684\u738B\u570B\uFF0C\u5B58\u5728\u65BC1701\u5E74\u81F31918\u5E74\uFF0C\u540C\u6642\u4E5F\u662F\u5F9E1871\u5E74\u81F3\u4E00\u6230\u6230\u6557\u524D\uFF0C\u9818\u5C0E\u5FB7\u610F\u5FD7\u5E1D\u570B\u7684\u653F\u6CBB\u5BE6\u9AD4\uFF0C\u5176\u9818\u571F\u56CA\u62EC\u6574\u500B\u5E1D\u570B\u7684\u4E09\u5206\u4E4B\u4E8C\u3002\u738B\u570B\u540D\u5B57\u662F\u7E7C\u627F\u666E\u9B6F\u58EB\u800C\u4F86\u7684\uFF0C\u96D6\u7136\u5B83\u7684\u6B0A\u529B\u57FA\u790E\u662F\u5F9E\u52C3\u862D\u767B\u5821\u5F97\u4F86\u7684\uFF0C\u66FE\u5C6C\u65BC\u795E\u8056\u7F85\u99AC\u5E1D\u570B\u7684\u4E00\u90E8\u5206\u3002"@zh ,
+		"Het Koninkrijk Pruisen (Duits: K\u00F6nigreich Preu\u00DFen, Nederlands ook wel Pruissen) was een Duits koninkrijk van 1701 tot 1918. Vanaf de Duitse eenwording in 1871 tot aan de Eerste Wereldoorlog besloeg Pruisen twee derde van het grondgebied van het Duitse Keizerrijk. De naam Pruisen komt van het Baltische volk der Pruisen aan de Bocht van Gda\u0144sk, maar de machtsbasis inclusief de hoofdstad Berlijn lag in Brandenburg."@nl ,
+		"El Reino de Prusia (en alem\u00E1n: K\u00F6nigreich Preu\u00DFen) fue un reino que existi\u00F3 desde 1701 hasta 1918. Gobernada durante toda su existencia por la rama franconiana de la Dinast\u00EDa Hohenzollern, originalmente estaba centrada en Brandeburgo-Prusia, no obstante y principalmente gracias a su poder\u00EDo militar, logr\u00F3 expandirse territorialmente, y para el fin de la Guerra austro-prusiana, hab\u00EDa alcanzado la hegemon\u00EDa total sobre el norte de Alemania."@es ,
+		"\u041A\u043E\u0440\u043E\u043B\u0435\u0301\u0432\u0441\u0442\u0432\u043E \u041F\u0440\u0443\u0301\u0441\u0441\u0438\u044F (\u043D\u0435\u043C. K\u00F6nigreich Preu\u00DFen) \u2014 \u043D\u0435\u043C\u0435\u0446\u043A\u043E\u0435 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E, \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E\u0432\u0430\u0432\u0448\u0435\u0435 \u0432 \u043F\u0435\u0440\u0438\u043E\u0434 \u0441 1701 \u043F\u043E 1918 \u0433\u043E\u0434.\u0421 1871 \u0433\u043E\u0434\u0430 \u041F\u0440\u0443\u0441\u0441\u043A\u043E\u0435 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u0431\u044B\u043B\u043E \u0432\u0435\u0434\u0443\u0449\u0438\u043C \u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043E\u043C \u043F\u0440\u043E\u0432\u043E\u0437\u0433\u043B\u0430\u0448\u0451\u043D\u043D\u043E\u0439 \u0413\u0435\u0440\u043C\u0430\u043D\u0441\u043A\u043E\u0439 \u0438\u043C\u043F\u0435\u0440\u0438\u0438, \u0437\u0430\u043D\u0438\u043C\u0430\u044F \u043F\u043E\u0447\u0442\u0438 \u0434\u0432\u0435 \u0442\u0440\u0435\u0442\u0438 \u0432\u0441\u0435\u0439 \u043F\u043B\u043E\u0449\u0430\u0434\u0438 \u0438\u043C\u043F\u0435\u0440\u0438\u0438. \u0421\u0432\u043E\u0451 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u043F\u0435\u0440\u0435\u043D\u044F\u043B\u043E \u043E\u0442 \u0413\u0435\u0440\u0446\u043E\u0433\u0441\u0442\u0432\u0430 \u041F\u0440\u0443\u0441\u0441\u0438\u044F, \u0445\u043E\u0442\u044F \u0435\u0451 \u0433\u043B\u0430\u0432\u043D\u044B\u043C \u0433\u043E\u0440\u043E\u0434\u043E\u043C \u044F\u0432\u043B\u044F\u043B\u0441\u044F \u0411\u0435\u0440\u043B\u0438\u043D, \u043D\u0430\u0445\u043E\u0434\u044F\u0449\u0438\u0439\u0441\u044F \u0432 \u0411\u0440\u0430\u043D\u0434\u0435\u043D\u0431\u0443\u0440\u0433\u0435."@ru ,
+		"Le royaume de Prusse (en allemand : K\u00F6nigreich Preu\u00DFen) est un \u00C9tat europ\u00E9en form\u00E9 en 1701, int\u00E9gr\u00E9 en 1871 \u00E0 l'Empire allemand, dont il est la composante principale ; il dispara\u00EEt en 1918 lorsque l'Allemagne devient une R\u00E9publique.Le royaume de Prusse devient un Etat de rang europ\u00E9en avec le r\u00E8gne de Fr\u00E9d\u00E9ric II (1742-1786), joue un r\u00F4le essentiel de 1792 \u00E0 1815 comme adversaire de la France (guerres de la R\u00E9volution et de l'Empire), de 1815 \u00E0 1866 comme adversaire de l'Autriche (unification de l'Allemagne excluant l'Autriche), et en 1870-71 de nouveau comme adversaire de la France (guerre franco-prussienne)."@fr ,
+		"\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FDK\u00F6nigreich Preu\u00DFen\u56FD\u6B4C: \u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u56FD\u6B4C\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u6B4C\uFF08\u30C9\u30A4\u30C4\u8A9E : Preu\u00DFenlied\uFF09\u7687\u5E1D\u965B\u4E0B\u4E07\u6B73\uFF08\u30C9\u30A4\u30C4\u8A9E : Heil dir im Siegerkranz\uFF09\uFF08\u5171\u306B\u975E\u516C\u5F0F\uFF09\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u4F4D\u7F6E\u30C9\u30A4\u30C4\u5E1D\u56FD\u6642\u4EE3\u306E\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\u9818\uFF08\u7DD1\uFF091\u5317\u30C9\u30A4\u30C4\u9023\u90A6\u3068\u30C9\u30A4\u30C4\u5E1D\u56FD\uFF081867\u5E74-1918\u5E74\uFF09\u306E\u6642\u4EE3\u306F\u3001\u30D7\u30ED\u30A4\u30BB\u30F3\u5BB0\u76F8\u306F\u30C9\u30A4\u30C4\u5BB0\u76F8\u3092\u517C\u8077\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\uFF08\u30D7\u30ED\u30A4\u30BB\u30F3\u304A\u3046\u3053\u304F\u3001\u72EC: K\u00F6nigreich Preu\u00DFen\uFF09\u306F\u3001\u30DB\u30FC\u30A8\u30F3\u30C4\u30A9\u30EC\u30EB\u30F3\u5BB6\u306E\u541B\u4E3B\u304C\u7D71\u6CBB\u3057\u305F\u30E8\u30FC\u30ED\u30C3\u30D1\u306E\u738B\u56FD\u3002\u73FE\u5728\u306E\u30C9\u30A4\u30C4\u5317\u90E8\u304B\u3089\u30DD\u30FC\u30E9\u30F3\u30C9\u897F\u90E8\u306B\u304B\u3051\u3066\u3092\u9818\u571F\u3068\u3057\u3001\u9996\u90FD\u306F\u30D9\u30EB\u30EA\u30F3\u306B\u3042\u3063\u305F\u3002"@ja ,
+		"The Kingdom of Prussia (German: K\u00F6nigreich Preu\u00DFen) was a German kingdom that existed between 1701 and 1918 and included parts of present-day Germany, Poland, Russia, Lithuania, Denmark, Belgium and the Czech Republic. It was the driving force behind the unification of Germany in 1871 and the creation of the German Empire."@en ;
+	dbpprop:s	"Free State of Prussia"@en ;
+	dbpprop:dateEnd	"--11-28+02:00"^^xsd:gMonthDay ;
+	dbpprop:dateStart	"--01-18+02:00"^^xsd:gMonthDay ;
+	dbpprop:statArea	348779 ;
+	dbpprop:statPop	24689000 ,
+		10349031 ,
+		34472509 ;
+	dbpprop:statYear	1871 ,
+		1910 ,
+		1816 ;
+	dbpedia-owl:dissolutionDate	"1918-11-28+02:00"^^xsd:date ;
+	foaf:isPrimaryTopicOf	ns19:Kingdom_of_Prussia .
+@prefix ns71:	<http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/> .
+dbpedia:Kingdom_of_Prussia	dbpprop:hasPhotoCollection	ns71:Kingdom_of_Prussia ;
+	dbpedia-owl:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Prussia_1892-1918.svg?width=300> ;
+	dbpedia-owl:abstract	"O Reino da Pr\u00FAssia (em alem\u00E3o: K\u00F6nigreich Preu\u00DFen) foi um reino alem\u00E3o de 1701 a 1918 e, a partir de 1871, o principal Estado-membro do Imp\u00E9rio Alem\u00E3o, compreendendo quase dois ter\u00E7os da \u00E1rea do Imp\u00E9rio. Seu nome originou-se do territ\u00F3rio da Pr\u00FAssia, embora sua base de poder tenha sido Brandemburgo."@pt ,
+		"Het Koninkrijk Pruisen (Duits: K\u00F6nigreich Preu\u00DFen, Nederlands ook wel Pruissen) was een Duits koninkrijk van 1701 tot 1918. Vanaf de Duitse eenwording in 1871 tot aan de Eerste Wereldoorlog besloeg Pruisen twee derde van het grondgebied van het Duitse Keizerrijk. De naam Pruisen komt van het Baltische volk der Pruisen aan de Bocht van Gda\u0144sk, maar de machtsbasis inclusief de hoofdstad Berlijn lag in Brandenburg. Het koninkrijk werd tijdens de Novemberrevolutie van 1918 afgeschaft en vervangen door de Vrijstaat Pruisen."@nl ,
+		"\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FDK\u00F6nigreich Preu\u00DFen</dd>\u56FD\u6B4C: \u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u56FD\u6B4C\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u6B4C\uFF08\u30C9\u30A4\u30C4\u8A9E : Preu\u00DFenlied\uFF09\u7687\u5E1D\u965B\u4E0B\u4E07\u6B73\uFF08\u30C9\u30A4\u30C4\u8A9E : Heil dir im Siegerkranz\uFF09\uFF08\u5171\u306B\u975E\u516C\u5F0F\uFF09\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u4F4D\u7F6E\u30C9\u30A4\u30C4\u5E1D\u56FD\u6642\u4EE3\u306E\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\u9818\uFF08\u7DD1\uFF091\u5317\u30C9\u30A4\u30C4\u9023\u90A6\u3068\u30C9\u30A4\u30C4\u5E1D\u56FD\uFF081867\u5E74-1918\u5E74\uFF09\u306E\u6642\u4EE3\u306F\u3001\u30D7\u30ED\u30A4\u30BB\u30F3\u5BB0\u76F8\u306F\u30C9\u30A4\u30C4\u5BB0\u76F8\u3092\u517C\u8077</dl>\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\uFF08\u30D7\u30ED\u30A4\u30BB\u30F3\u304A\u3046\u3053\u304F\u3001\u72EC: K\u00F6nigreich Preu\u00DFen\uFF09\u306F\u3001\u30DB\u30FC\u30A8\u30F3\u30C4\u30A9\u30EC\u30EB\u30F3\u5BB6\u306E\u541B\u4E3B\u304C\u7D71\u6CBB\u3057\u305F\u30E8\u30FC\u30ED\u30C3\u30D1\u306E\u738B\u56FD\u3002\u73FE\u5728\u306E\u30C9\u30A4\u30C4\u5317\u90E8\u304B\u3089\u30DD\u30FC\u30E9\u30F3\u30C9\u897F\u90E8\u306B\u304B\u3051\u3066\u3092\u9818\u571F\u3068\u3057\u3001\u9996\u90FD\u306F\u30D9\u30EB\u30EA\u30F3\u306B\u3042\u3063\u305F\u3002"@ja ,
+		"Kr\u00F3lestwo Prus (niem. K\u00F6nigreich Preu\u00DFen) \u2013 oficjalny tytu\u0142 pa\u0144stwa prusko-brandenburskiego po 1701, wraz z pozosta\u0142ymi domenami dynastii Hohenzollern\u00F3w w latach 1701-1918, od 1871 wchodz\u0105ce w sk\u0142ad Cesarstwa Niemieckiego. Terytorium Kr\u00F3lestwa Prus obejmowa\u0142o dwie trzecie ca\u0142ego obszaru Cesarstwa Niemieckiego."@pl ,
+		"\u0645\u0645\u0644\u0643\u0629 \u0628\u0631\u0648\u0633\u064A\u0627 (\u0628\u0627\u0644\u0623\u0644\u0645\u0627\u0646\u064A\u0629: K\u00F6nigreich Preu\u00DFen) \u0645\u0645\u0644\u0643\u0629 \u0623\u0644\u0645\u0627\u0646\u064A\u0629 \u062A\u0648\u0627\u062C\u062F\u062A \u0645\u0646\u0630 \u0639\u0627\u0645 1701 \u062D\u062A\u0649 \u0639\u0627\u0645 1918. \u0634\u0643\u0644\u062A \u0623\u0631\u0627\u0636\u064A \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u062B\u0644\u062B\u064A \u0645\u0633\u0627\u062D\u0629 \u0627\u0644\u0625\u0645\u0628\u0631\u0627\u0637\u0648\u0631\u064A\u0629 \u0627\u0644\u0623\u0644\u0645\u0627\u0646\u064A\u0629."@ar ,
+		"\u666E\u9B6F\u58EB\u738B\u570B\uFF08\u5FB7\u8BED\uFF1AK\u00F6nigreich Preu\u00DFen\uFF09\u662F\u4E00\u500B\u4F4D\u65BC\u73FE\u4ECA\u5FB7\u570B\u548C\u6CE2\u862D\u5883\u5167\u7684\u738B\u570B\uFF0C\u5B58\u5728\u65BC1701\u5E74\u81F31918\u5E74\uFF0C\u540C\u6642\u4E5F\u662F\u5F9E1871\u5E74\u81F3\u4E00\u6230\u6230\u6557\u524D\uFF0C\u9818\u5C0E\u5FB7\u610F\u5FD7\u5E1D\u570B\u7684\u653F\u6CBB\u5BE6\u9AD4\uFF0C\u5176\u9818\u571F\u56CA\u62EC\u6574\u500B\u5E1D\u570B\u7684\u4E09\u5206\u4E4B\u4E8C\u3002\u738B\u570B\u540D\u5B57\u662F\u7E7C\u627F\u666E\u9B6F\u58EB\u800C\u4F86\u7684\uFF0C\u96D6\u7136\u5B83\u7684\u6B0A\u529B\u57FA\u790E\u662F\u5F9E\u52C3\u862D\u767B\u5821\u5F97\u4F86\u7684\uFF0C\u66FE\u5C6C\u65BC\u795E\u8056\u7F85\u99AC\u5E1D\u570B\u7684\u4E00\u90E8\u5206\u3002"@zh ,
+		"Il Regno di Prussia (in tedesco: K\u00F6nigreich Preu\u00DFen) \u00E8 stato un regno tedesco esistito dal 1701 al 1918. Alla caduta della monarchia in Germania, alla fine della prima guerra mondiale, il regno costituiva circa i due terzi dell'Impero tedesco."@it ,
+		"\u041A\u043E\u0440\u043E\u043B\u0435\u0301\u0432\u0441\u0442\u0432\u043E \u041F\u0440\u0443\u0301\u0441\u0441\u0438\u044F (\u043D\u0435\u043C. K\u00F6nigreich Preu\u00DFen) \u2014 \u043D\u0435\u043C\u0435\u0446\u043A\u043E\u0435 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E, \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E\u0432\u0430\u0432\u0448\u0435\u0435 \u0432 \u043F\u0435\u0440\u0438\u043E\u0434 \u0441 1701 \u043F\u043E 1918 \u0433\u043E\u0434.\u0421 1871 \u0433\u043E\u0434\u0430 \u041F\u0440\u0443\u0441\u0441\u043A\u043E\u0435 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u0431\u044B\u043B\u043E \u0432\u0435\u0434\u0443\u0449\u0438\u043C \u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043E\u043C \u043F\u0440\u043E\u0432\u043E\u0437\u0433\u043B\u0430\u0448\u0451\u043D\u043D\u043E\u0439 \u0413\u0435\u0440\u043C\u0430\u043D\u0441\u043A\u043E\u0439 \u0438\u043C\u043F\u0435\u0440\u0438\u0438, \u0437\u0430\u043D\u0438\u043C\u0430\u044F \u043F\u043E\u0447\u0442\u0438 \u0434\u0432\u0435 \u0442\u0440\u0435\u0442\u0438 \u0432\u0441\u0435\u0439 \u043F\u043B\u043E\u0449\u0430\u0434\u0438 \u0438\u043C\u043F\u0435\u0440\u0438\u0438. \u0421\u0432\u043E\u0451 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u043F\u0435\u0440\u0435\u043D\u044F\u043B\u043E \u043E\u0442 \u0413\u0435\u0440\u0446\u043E\u0433\u0441\u0442\u0432\u0430 \u041F\u0440\u0443\u0441\u0441\u0438\u044F, \u0445\u043E\u0442\u044F \u0435\u0451 \u0433\u043B\u0430\u0432\u043D\u044B\u043C \u0433\u043E\u0440\u043E\u0434\u043E\u043C \u044F\u0432\u043B\u044F\u043B\u0441\u044F \u0411\u0435\u0440\u043B\u0438\u043D, \u043D\u0430\u0445\u043E\u0434\u044F\u0449\u0438\u0439\u0441\u044F \u0432 \u0411\u0440\u0430\u043D\u0434\u0435\u043D\u0431\u0443\u0440\u0433\u0435."@ru ,
+		"Le royaume de Prusse (en allemand : K\u00F6nigreich Preu\u00DFen) est un \u00C9tat europ\u00E9en form\u00E9 en 1701, int\u00E9gr\u00E9 en 1871 \u00E0 l'Empire allemand, dont il est la composante principale ; il dispara\u00EEt en 1918 lorsque l'Allemagne devient une R\u00E9publique.Le royaume de Prusse devient un Etat de rang europ\u00E9en avec le r\u00E8gne de Fr\u00E9d\u00E9ric II (1742-1786), joue un r\u00F4le essentiel de 1792 \u00E0 1815 comme adversaire de la France (guerres de la R\u00E9volution et de l'Empire), de 1815 \u00E0 1866 comme adversaire de l'Autriche (unification de l'Allemagne excluant l'Autriche), et en 1870-71 de nouveau comme adversaire de la France (guerre franco-prussienne)."@fr ,
+		"\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FDK\u00F6nigreich Preu\u00DFen\u56FD\u6B4C: \u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u56FD\u6B4C\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u6B4C\uFF08\u30C9\u30A4\u30C4\u8A9E : Preu\u00DFenlied\uFF09\u7687\u5E1D\u965B\u4E0B\u4E07\u6B73\uFF08\u30C9\u30A4\u30C4\u8A9E : Heil dir im Siegerkranz\uFF09\uFF08\u5171\u306B\u975E\u516C\u5F0F\uFF09\u30D7\u30ED\u30A4\u30BB\u30F3\u306E\u4F4D\u7F6E\u30C9\u30A4\u30C4\u5E1D\u56FD\u6642\u4EE3\u306E\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\u9818\uFF08\u7DD1\uFF091\u5317\u30C9\u30A4\u30C4\u9023\u90A6\u3068\u30C9\u30A4\u30C4\u5E1D\u56FD\uFF081867\u5E74-1918\u5E74\uFF09\u306E\u6642\u4EE3\u306F\u3001\u30D7\u30ED\u30A4\u30BB\u30F3\u5BB0\u76F8\u306F\u30C9\u30A4\u30C4\u5BB0\u76F8\u3092\u517C\u8077\u30D7\u30ED\u30A4\u30BB\u30F3\u738B\u56FD\uFF08\u30D7\u30ED\u30A4\u30BB\u30F3\u304A\u3046\u3053\u304F\u3001\u72EC: K\u00F6nigreich Preu\u00DFen\uFF09\u306F\u3001\u30DB\u30FC\u30A8\u30F3\u30C4\u30A9\u30EC\u30EB\u30F3\u5BB6\u306E\u541B\u4E3B\u304C\u7D71\u6CBB\u3057\u305F\u30E8\u30FC\u30ED\u30C3\u30D1\u306E\u738B\u56FD\u3002\u73FE\u5728\u306E\u30C9\u30A4\u30C4\u5317\u90E8\u304B\u3089\u30DD\u30FC\u30E9\u30F3\u30C9\u897F\u90E8\u306B\u304B\u3051\u3066\u3092\u9818\u571F\u3068\u3057\u3001\u9996\u90FD\u306F\u30D9\u30EB\u30EA\u30F3\u306B\u3042\u3063\u305F\u3002"@ja ,
+		"The Kingdom of Prussia (German: K\u00F6nigreich Preu\u00DFen) was a German kingdom that existed between 1701 and 1918 and included parts of present-day Germany, Poland, Russia, Lithuania, Denmark, Belgium and the Czech Republic. It was the driving force behind the unification of Germany in 1871 and the creation of the German Empire. Although it took its name from the region called Prussia, it was based in Brandenburg, where its capital was Berlin.Prussia was a great power since its foundation as a kingdom, though it became a military power as a duchy under Frederick William, known as \"The Great Elector\".Prussia is considered the legal predecessor of the unified German Reich (1871\u20131945) and a direct ancestor of the current German state."@en ,
+		"El Reino de Prusia (en alem\u00E1n: K\u00F6nigreich Preu\u00DFen) fue un reino que existi\u00F3 desde 1701 hasta 1918. Gobernada durante toda su existencia por la rama franconiana de la Dinast\u00EDa Hohenzollern, originalmente estaba centrada en Brandeburgo-Prusia, no obstante y principalmente gracias a su poder\u00EDo militar, logr\u00F3 expandirse territorialmente, y para el fin de la Guerra austro-prusiana, hab\u00EDa alcanzado la hegemon\u00EDa total sobre el norte de Alemania. En 1871, al finalizar la Guerra franco-prusiana y al proclamarse el Imperio alem\u00E1n, el Reino alcanz\u00F3 su m\u00E1xima extensi\u0081\u00F3n territorial; y aunque junto con otros Reinos germanos pas\u00F3 a formar parte del nuevo Estado alem\u00E1n, era por mucho el m\u00E1s grande e importante, abarcando m\u00E1s de la mitad de la superficie del Imperio, unos 348.780 km\u00B2 en 1910. Al contar con la mayor econom\u00EDa y el mayor ej\u00E9rcito de Alemania, Prusia garantiz\u00F3 su hegemon\u00EDa pol\u00EDtica y desde entonces los Reyes de Prusia fueron tambi\u00E9n los Emperadores alemanes. En 1918, al ser derrotada Alemania en la Primera Guerra Mundial, una revoluci\u00F3n socialista derroc\u00F3 a la monarqu\u00EDa y el Reino se convirti\u00F3 en el Estado Libre de Prusia, un Estado federal dentro de la nueva Rep\u00FAblica alemana."@es ;
+	dbpedia-owl:wikiPageID	242701 ;
+	dbpedia-owl:wikiPageRevisionID	605888978 ;
+	dbpprop:commonLanguages	"German"@en ,
+		"Official:"@en ;
+	dbpprop:flagS	"Flag of Prussia .svg"@en ;
+	dbpprop:flagType	"Flag"@en ;
+	dbpprop:yearLeader	1701 ,
+		1888 ;
+	dbpprop:refimprove	"April 2012"@en ;
+	dbpprop:flagP	"Flag of Hesse.svg"@en ,
+		"Naval Ensign of Sweden.svg"@en ,
+		"Gdansk flag.svg"@en ,
+		"Flag of Ducal Prussia.svg"@en ,
+		"Flag of Hanover 1837-1866.svg"@en ,
+		"Banner of the Holy Roman Emperor with haloes .svg"@en ,
+		"Flagge der Freien Stadt Frankfurt.png"@en ,
+		"Flag of Lauenburg.svg"@en ,
+		"Flag of Denmark.svg"@en ,
+		"Flagge Herzogtum Nassau .svg"@en ,
+		"Flag of Prussia .svg"@en ;
+	dbpprop:symbolType	"Royal coat of arms"@en ;
+	dbpprop:nativeName	"K\u00F6nigreich Preu\u00DFen"@en ;
+	dbpprop:leader	dbpedia:Frederick_I_of_Prussia ,
+		<http://dbpedia.org/resource/Wilhelm_II,_German_Emperor> ;
+	dbpprop:status	"State of the German Confederation"@en ,
+		"State of the German Empire"@en ,
+		"State of the North German Confederation"@en ;
+	dbpprop:continent	"Europe"@en ;
+	dbpprop:eventStart	"Frederick I"@en ;
+	dbpprop:yearEnd	1918 ;
+	dbpprop:commonName	"Prussia"@en ;
+	dbpprop:dateEvent	"1815-06-09+02:00"^^xsd:date ,
+		"1871-01-18+02:00"^^xsd:date ,
+		"1806-10-14+02:00"^^xsd:date ,
+		"1848-12-05+02:00"^^xsd:date ;
+	dbpprop:imageMapCaption	"The Kingdom of Prussia  at its greatest extent, after the incorporation of Saxe-Lauenburg in 1876."@en ;
+	dbpprop:titleLeader	dbpedia:List_of_monarchs_of_Prussia ;
+	dbpprop:conventionalLongName	"Kingdom of Prussia"@en ;
+	dbpprop:imageMap	"Map-DR-Prussia.svg"@en ;
+	dbpedia-owl:capital	dbpedia:Berlin ;
+	dbpedia-owl:dissolutionYear	"1918+02:00"^^xsd:gYear ;
+	dbpprop:capital	dbpedia:Berlin ;
+	dbpprop:yearStart	1701 ;
+	dbpprop:imageFlag	"Flag of Prussia 1892-1918.svg"@en ;
+	dbpprop:imageCoat	"Wappen Deutsches Reich - K\u00F6nigreich Preussen .png"@en ;
+	dbpprop:legislature	"Landtag"@en ;
+	dbpedia-owl:foundingDate	"1701-01-18+02:00"^^xsd:date ;
+	dbpprop:country	"Germany, Poland, Russia, Lithuania, Denmark, Belgium and the Czech Republic were formally parts of Prussia."@en ;
+	dbpprop:region	"Central Europe"@en .
+@prefix virtrdf:	<http://www.openlinksw.com/schemas/virtrdf#> .
+dbpedia:Kingdom_of_Prussia	geo:geometry	"POINT(13.400000 52.516666)"^^virtrdf:Geometry ;
+	dbpprop:event	dbpedia:Congress_of_Vienna ,
+		<http://dbpedia.org/resource/Battle_of_Jena%E2%80%93Auerstedt> ,
+		dbpedia:Unification_of_Germany ;
+	dbpprop:datePost	"1919-06-28+02:00"^^xsd:date ;
+	dbpprop:eventPost	dbpedia:Treaty_of_Versailles ;
+	dbpedia-owl:foundingYear	"1701+02:00"^^xsd:gYear ;
+	dbpprop:longd	13 ;
+	dbpprop:latm	31 ;
+	dbpprop:longm	24 ;
+	dbpprop:longew	"E"@en ;
+	dbpprop:latns	"N"@en ;
+	dbpprop:latd	52 ;
+	dbpprop:symbol	"Coat of arms of Prussia"@en ;
+	dbpprop:moreFootnotes	"April 2012"@en ;
+	dbpprop:borderP	"no"@en ;
+	dbpprop:p	"Electorate of Hesse"@en ,
+		"Free City of Danzig"@en ,
+		"Duchy of Holstein"@en ,
+		"Kingdom of Hanover"@en ,
+		"Royal Prussia"@en ,
+		"Saxe-Lauenburg"@en ,
+		"Holy Roman Empire"@en ,
+		"Duchy of Schleswig"@en ,
+		"Duchy of Prussia"@en ,
+		"Duchy of Nassau"@en ,
+		"Swedish Pomerania"@en ,
+		"Free City of Frankfurt"@en ;
+	dbpprop:yearDeputy	1848 ,
+		1918 ;
+	dbpprop:deputy	dbpedia:Adolf_Heinrich_von_Arnim-Boitzenburg ,
+		dbpedia:Prince_Maximilian_of_Baden ;
+	dbpprop:leadTooShort	"April 2012"@en .
+dbpedia:Immanuel_Kant	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Adolf_Anderssen	dbpprop:country	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Franciszek_Brodniewicz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duke_William_of_W%C3%BCrttemberg>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Marianne_of_Prussia	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Charlotte_of_Saxe-Altenburg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Maria_Margarethe_Kirch	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:residence	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:residence	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Nietzsche	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Joseph_Goebbels	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Wolfgang_Petersen	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Felix_Hausdorff	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Dietrich_Bonhoeffer	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Frederick_Charles_of_Hesse	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Kurt_Hensel	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Duisberg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Edith_Frank	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Prince_Bernhard_of_Lippe_(1872%E2%80%931934)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Heinrich_Rickert	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Fritz_Wolffheim	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Elard_von_Oldenburg-Januschau	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Picha	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Walther_Funk	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Hirt	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Erich_Mende	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Karl-G%C3%BCnther_von_Hase>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Martin_Bormann	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Elisabeth_F%C3%B6rster-Nietzsche>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Engels	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Charles-Mathias_Simons	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Leopold_Damrosch	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Edward_Sapir	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ludwig_Mies_van_der_Rohe	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Oscar_Hammerstein_I	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Robert_F._Wagner>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_Eis	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/John_A._Roebling>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Luise_Rainer	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Magnus_Hirschfeld	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Albert_Bierstadt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Christopher_Werner	dbpedia-owl:stateOfOrigin	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:nationality	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:nationality	dbpedia:Kingdom_of_Prussia .
+dbpedia:Carl_Schurz	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karen_Horney	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Solomon_Bibo	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/George_M%C3%BCller>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Bernhard_Fernow	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Albert_Kahn_(architect)>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Adolph_Coors	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Frederick_Fraske	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Theo_Lingen	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Otto_Ohlendorf	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich-Wilhelm_Bock	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Heinrich_Springer	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Fritz_Klingenberg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Heinrich_Laufenberg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Karl_G%C3%BCtzlaff>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Battle_of_Minden	dbpedia-owl:place	dbpedia:Kingdom_of_Prussia .
+dbpedia:Helmuth_Weidling	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Horst_Schumann	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Hermann_von_Stein_(1854%E2%80%931927)>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gustav_Nachtigal	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duke_Paul_Wilhelm_of_W%C3%BCrttemberg>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Brandenburger_Gold_Coast	dbpprop:statusText	dbpedia:Kingdom_of_Prussia .
+dbpedia:Rudolf_Schnackenburg	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Pedro_de_Almeida_Portugal,_3rd_Marquis_of_Alorna>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Carol_Victor,_Hereditary_Prince_of_Albania>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Franciszek_Tr%C4%85balski>	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/James_Stephen_(civil_servant)>	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Siege_of_Kolberg_(1807)>	dbpedia-owl:place	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/SMS_Gazelle_(1859)>	dbpprop:shipCountry	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:country	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Maximilian_Klinger	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Jakob_Rosanes	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hermann_Rauschning	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Province_of_Posen	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+dbpedia:Princess_Rosemary_of_Salm-Salm	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Otto_Wallach	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:nationality	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:nationality	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ferdinand_Schichau	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Otto_Fritz_Meyerhof	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Friedrich_Otto_Rudolf_Sturm	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Denke	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Karl_Odebrett	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Franz_Brandt	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Gustav_Schneidewind	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Johannes_Holzmann	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Prince_Friedrich_Wilhelm_of_Prussia	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Duchess_Luise_of_Brunswick-Wolfenb%C3%BCttel>	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Friedrich,_Duke_of_Schleswig-Holstein-Sonderburg-Gl%C3%BCcksburg>	dbpprop:deathPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpprop:placeOfDeath	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:deathPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Ludwik_Rydygier	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:James_Kleist	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Leo_K%C3%B6nigsberger>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Eleonore_Reuss_of_K%C3%B6stritz>	dbpprop:birthPlace	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:Hosea_Jacobi	dbpprop:placeOfBirth	dbpedia:Kingdom_of_Prussia ;
+	dbpedia-owl:birthPlace	dbpedia:Kingdom_of_Prussia .
+dbpedia:New_Silesia	dbpprop:nation	dbpedia:Kingdom_of_Prussia .
+<http://dbpedia.org/resource/Siege_of_Danzig_(1807)>	dbpedia-owl:place	dbpedia:Kingdom_of_Prussia .

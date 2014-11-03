@@ -2,6 +2,23 @@
 var http = require('http');
 var fs = require('fs');
 var request = require('request');
+var _ = require('underscore');
+//var exec = require('child_process').exe, child;
+
+
+var jenaserver_url = "localhost";
+var jenaserver_port = "3030";
+var jenaserver_datastore = "ds";
+var jena_data_endpoint = "data";
+
+var dbpedia_filetype = "ntriples";
+
+
+var subject = [];
+var objects = [];
+
+var graphNumber = 0;
+
 
 var uriList = [
     "Michelle_Obama",
@@ -20,27 +37,102 @@ var server = http.createServer(
         });
 
 
+/** MAIN **/
 (function() {
-    var input = fs.createReadStream('output.txt');
-    for(var uri in uriList) {    
+    var uri;
+    var total = "";
+    var done = 0;
+    //var input = fs.createReadStream('output.txt');
+    for(var i=0; i<uriList.length; i++) { 
+        uri = uriList[i];   
         getRDF(uri, function(output) {
-                    console.log(output);
-            });
+            total += output + "\n";
+            done++;
+            doIfFinished(done==uriList.length, function(){
+                return  sendRDFData(total, function(chunk) {
+                    console.log(chunk);
+                })
+                });
+
+        });
     }
+    
 })();
 
 
+function doIfFinished(condition, func, args) {
+    if(condition) {
+        func();
+    }
+}
+
+
 function getRDF(uri, func) {
-    var output = "";
-    var completeUri  = "http://dbpedia.org/data/" + encodeURI(uri) + ".n3";
-    console.log("RDF uri : " + completeUri);
+    var output = ""; 
+    var completeUri  = "http://dbpedia.org/data/" + encodeURI(uri) + "." + dbpedia_filetype;
+    //console.log("RDF uri : " + completeUri);
     request(completeUri, function (error, response, body) {
-        console.log(error);
         if (!error ) {
             output += body;
             func(output);
         }
     });
+}
+
+
+function sendRDFData(data, callback) {
+
+    var header = { 
+      'content-type': 'text/turtle',
+      'accept': '*/*',
+      'charset' : 'utf8' };
+
+  var options = {
+      host: jenaserver_url,
+      port: jenaserver_port,
+      path: "/" + jenaserver_datastore + "/" + jena_data_endpoint + "?default",
+      method: 'PUT',
+      headers: header
+    };
+
+    var req = http.request(options, function(res) {
+      console.log('STATUS: ' + res.statusCode);
+      console.log('HEADERS: ' + JSON.stringify(res.headers));
+      res.setEncoding('utf8');
+      res.on('data', callback);
+      /*res.on('data', function (chunk) {
+        //console.log('BODY: ' + chunk);
+      });*/
+    });
+
+    //console.log('Request URL : ' + options.path);
+
+    req.on('error', function(e) {
+      console.log('problem with request: ' + e.message);
+    });
+
+    // write data to request body
+    req.write(data);
+
+    req.end();
+}
+
+
+function getUniqSubjectUri(data) {
+    var results = [];
+    _.each(data.split('\n'), function(element, index, list) {
+        results.push(element.split(new RegExp("[\\n\\t\\s]+")).filter(Boolean)[0]);
+    });
+    return results;
+}
+
+function getNtriplesForData(data) {
+    var results = [];
+    _.each(data.split('\n'), function(element, index, list) {
+        //console.log(element);
+        result.push(element.match(/"[^"]*"[^\s\n\t]+|[^\s"]+/g));
+    });
+    return results;
 }
 
 
@@ -67,6 +159,10 @@ function readLines(input, func) {
             func(remaining);
         }
     });
+}
+
+function sparqlQuery(query) {
+
 }
 
 // Listen on port 8000, IP defaults to 127.0.0.1
