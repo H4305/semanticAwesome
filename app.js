@@ -15,6 +15,8 @@ var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
 
 app.get('/', function (req, res) {
 
+	var results = "";
+
 	//Find results for query  
 	var xmlHttp = null;
 	var theUrl = "https://www.googleapis.com/customsearch/v1?key=" + gkey + "&cx=" + cx + "&q=" + query;
@@ -25,51 +27,60 @@ app.get('/', function (req, res) {
 
 	var HttpResponse = JSON.parse(xmlHttp.responseText);
 
+	//For each http link found 
 	for (i = 0; i < HttpResponse['items'].length; i++)
-	{    
+	{   
+		var response = "";
+
 	    var link = HttpResponse['items'][i]['link'];
 	    console.log(link);
+
+	    results +=  "Link : " + link + "<br>";
 	    
+	    //Get the text
 		alchemy.getResources(link, function (content_text) {
-		
-			var text_sliced = content_text.substring(0,150);
-			console.log(text_sliced);
 
-			/* Just in order to reduce the number of words */
+			var text_sliced = content_text.substring(0,500);
+			//console.log(text_sliced);
 
-			console.log(text_sliced.length);
+			//Just in order to reduce the number of words
+			
+			//console.log(text_sliced.length);
 			text_sliced = text_sliced.replace(/[\.,-\/#!$'"%\^&\*;:{}=\-_`~()]/g,"");
 			text_sliced = text_sliced.replace(/\b[^ ]{1,2}\b/g,"");
-			console.log(text_sliced.length);
+			//console.log(text_sliced.length);
 
-			var lala = [];
+			// ?? Unusefull
+			var htmlPageWords = [];
 			var table = text_sliced.split(" ");
-			console.log(table.length);
+			//console.log(table.length);
+
 			table.forEach(function(word) {
-				if (lala.indexOf(word) < 0) {
-					lala.push(word);
+				if (htmlPageWords.indexOf(word) < 0) {
+					htmlPageWords.push(word);
 				}
 
 			});
-			console.log(lala.length);
-			console.log(lala);
-
-			/* Just in order to reduce the number of words */
-
-					
+			//console.log(htmlPageWords.length);
+			//console.log(htmlPageWords);
+			//Just in order to reduce the number of words ?? Unusefull
+			
+			//Get dbpedia 
 			spotlight.getResources(text_sliced, function (URIList) {
-
-				var response = "";
 
 				URIList.forEach(function(URI) {
 
 				  	response += URI + "<br>";
-				});
-				
-				res.send(response);
+				});	
 			});
-		});	   
+
+			results += response + "<br>";
+
+		});
 	}  
+
+	//ONLY sends links associated to the query, because alchemy and spotlight fonctions are asynchrone
+	res.send(results);
 });
 
 
