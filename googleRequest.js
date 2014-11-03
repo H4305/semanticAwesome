@@ -8,7 +8,7 @@ module.exports = (function() {
   var query = "sushi";
 
   /* requestGoogle
-   * Sends a request to DBpedia spotlight.
+   * Sends a request to google custom search API.
    * @param text the text argument
    * @param callback the callback function to execute when ready
    */
@@ -27,12 +27,15 @@ module.exports = (function() {
       },
       maxRedirects: 3
     }, function(error, response, body) {
+
       console.log(error);
       var responseObj = null;
       if(!error) {
         responseObj = JSON.parse(body);
       }
+
       callback(responseObj);
+
     });
   }
 
@@ -45,12 +48,16 @@ module.exports = (function() {
      */
 
     getResources: function getResources(text, callback) {
+
       var resources = {};
+
       //Sends the request 
       requestGoogle(text, function (object) {
+
         if(object == null) {
           console.log("Empty object cant be annotated.");
           return null;
+          
         }
         var URIList = [];
         URIList.push("bonjour");
