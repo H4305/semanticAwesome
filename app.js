@@ -15,10 +15,21 @@ var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
 // Request routes
 
 app.get('/testalchemy', function (req, res) {
-	alchemy.getResources(url, function (content_text) {
+	/*alchemy.getResources(url, function (content_text) {
 		console.log(content_text);
 		res.send(content_text);
 	});
+	*/
+	
+	var results = "";
+	alchemy.getResources(url, function (content_text) {
+		spotlight.getResources(content_text, function (URIList) {
+			URIList.forEach(function(URI) {
+				results += URI + "<br>";
+			});	
+		});
+	});
+	res.send(results);
 });
 
 app.get('/lala', function (req, res) {
@@ -63,7 +74,7 @@ app.get('/', function (req, res) {
 			//Just in order to reduce the number of words ?? Unusefull
 			
 			//Get dbpedia links
-			spotlight.getResources(text_sliced, function (URIList) {
+			spotlight.getResources(content_text, function (URIList) {
 
 				URIList.forEach(function(URI) {
 
