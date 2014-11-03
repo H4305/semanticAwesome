@@ -65,7 +65,7 @@ app.get('/', function (req, res) {
 			//console.log(htmlPageWords);
 			//Just in order to reduce the number of words ?? Unusefull
 			
-			//Get dbpedia 
+			//Get dbpedia links
 			spotlight.getResources(text_sliced, function (URIList) {
 
 				URIList.forEach(function(URI) {
