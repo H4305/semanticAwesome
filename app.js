@@ -3,6 +3,10 @@ var spotlight = require('./spotlightRequest.js');
 var alchemy = require('./alchemyRequest.js');
 var app = express();
 
+var gkey = "AIzaSyDTKQHpVvvyAiVBF92GH4E0CE-fHSkr16E";
+var cx = "011944880399546755950%3Ar7ud99txd5w";
+var query = "sushi";
+
 var text = "Nice is a large city in France on the French Riviera. It's a popular destination for vacationers both young and old, with something to offer nearly everyone. It is well known for the beautiful view on the Promenade des Anglais, its famous waterfront, and is an ethnically diverse port city. ";
 
 var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
@@ -11,46 +15,61 @@ var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
 
 app.get('/', function (req, res) {
 
-	alchemy.getResources(url, function (content_text) {
-	
-		var text_sliced = content_text.substring(0,150);
-		console.log(text_sliced);
-		
-		
-		/* Just in order to reduce the number of words */
-		
-		
-		console.log(text_sliced.length);
-		text_sliced = text_sliced.replace(/[\.,-\/#!$'"%\^&\*;:{}=\-_`~()]/g,"");
-		text_sliced = text_sliced.replace(/\b[^ ]{1,2}\b/g,"");
-		console.log(text_sliced.length);
-		
-		var lala = [];
-		var table = text_sliced.split(" ");
-		console.log(table.length);
-		table.forEach(function(word) {
-			if (lala.indexOf(word) < 0) {
-				lala.push(word);
-			}
+	//Find results for query  
+	var xmlHttp = null;
+	var theUrl = "https://www.googleapis.com/customsearch/v1?key=" + gkey + "&cx=" + cx + "&q=" + query;
+	var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+	xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "GET", theUrl, false );
+	xmlHttp.send( null );
 
-		});
-		console.log(lala.length);
-		console.log(lala);
+	var HttpResponse = JSON.parse(xmlHttp.responseText);
+
+	for (i = 0; i < HttpResponse['items'].length; i++)
+	{    
+	    var link = HttpResponse['items'][i]['link'];
+	    console.log(link);
+	    
+		alchemy.getResources(link, function (content_text) {
 		
-		
-		
-		/* Just in order to reduce the number of words */
-		
-		
-				
-		spotlight.getResources(text_sliced, function (URIList) {
-			var response = "";
-			URIList.forEach(function(URI) {
-			  response += URI + "<br>";
+			var text_sliced = content_text.substring(0,150);
+			console.log(text_sliced);
+
+			/* Just in order to reduce the number of words */
+
+			console.log(text_sliced.length);
+			text_sliced = text_sliced.replace(/[\.,-\/#!$'"%\^&\*;:{}=\-_`~()]/g,"");
+			text_sliced = text_sliced.replace(/\b[^ ]{1,2}\b/g,"");
+			console.log(text_sliced.length);
+
+			var lala = [];
+			var table = text_sliced.split(" ");
+			console.log(table.length);
+			table.forEach(function(word) {
+				if (lala.indexOf(word) < 0) {
+					lala.push(word);
+				}
+
 			});
-			res.send(response);
-		});
-	});
+			console.log(lala.length);
+			console.log(lala);
+
+			/* Just in order to reduce the number of words */
+
+					
+			spotlight.getResources(text_sliced, function (URIList) {
+
+				var response = "";
+
+				URIList.forEach(function(URI) {
+
+				  	response += URI + "<br>";
+				});
+				
+				res.send(response);
+			});
+		});	   
+	}  
 });
 
 
