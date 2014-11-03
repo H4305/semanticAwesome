@@ -15,22 +15,18 @@ var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
 // Request routes
 
 app.get('/testalchemy', function (req, res) {
-	/*alchemy.getResources(url, function (content_text) {
-		console.log(content_text);
-		res.send(content_text);
-	});
-	*/
-	
-	var results = "";
 	alchemy.getResources(url, function (content_text) {
 		spotlight.getResources(content_text, function (URIList) {
+			var response = "";
 			URIList.forEach(function(URI) {
-				results += URI + "<br>";
-			});	
+				response += URI + "<br>";
+			});
+			res.send(response);
 		});
 	});
-	res.send(results);
 });
+
+
 
 app.get('/lala', function (req, res) {
 	var results = "";
