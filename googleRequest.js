@@ -3,9 +3,8 @@ var request = require('request');
 module.exports = (function() {
 
   const GOOGLE = "https://www.googleapis.com/customsearch/v1";  
-  var gkey = "AIzaSyDTKQHpVvvyAiVBF92GH4E0CE-fHSkr16E";
-  var cx = "011944880399546755950%3Ar7ud99txd5w";
-  var query = "sushi";
+  const GKEY = "AIzaSyDTKQHpVvvyAiVBF92GH4E0CE-fHSkr16E";
+  const CX = "011944880399546755950%3Ar7ud99txd5w";
 
   /* requestGoogle
    * Sends a request to google custom search API.
@@ -13,9 +12,9 @@ module.exports = (function() {
    * @param callback the callback function to execute when ready
    */
 
-  function requestGoogle(text, callback) {
+  function requestGoogle(query, callback) {
 
-    var args = "?key=" + gkey + "&cx=" + cx + "&q=" + query;
+    var args = "?key=" + GKEY + "&cx=" + CX + "&q=" + query;
 
     request({
       uri: GOOGLE + args,
@@ -30,8 +29,11 @@ module.exports = (function() {
 
       console.log(error);
       var responseObj = null;
+
       if(!error) {
+
         responseObj = JSON.parse(body);
+
       }
 
       callback(responseObj);
@@ -42,53 +44,37 @@ module.exports = (function() {
   return {
 
     /* getResources
-     * Sends a request to DBpedia spotlight using requestGoogle function.
-     * @param text The text to annotate
+     * Call requestGoogle function to get the URI list
+     * @param text The text to search
      * @return A list with all the resource URIs
      */
 
-    getResources: function getResources(text, callback) {
+    getResources: function getResources(query, callback) {
 
       var resources = {};
 
       //Sends the request 
-      requestGoogle(text, function (object) {
+      requestGoogle(query, function (object) {
 
         if(object == null) {
-          console.log("Empty object cant be annotated.");
+
+          console.log("No results for query:" + query);
           return null;
-          
+
+        }	
+		    
+        var JSONObjSize = object['items'].length;
+
+        var URIList = [object['items'][0]['link']];
+
+        for (i = 1; i < JSONObjSize; i++)
+        { 
+          URIList.push(object['items'][i]['link']);
         }
-        var URIList = [];
-        URIList.push("bonjour");
-		console.log(object);
-		
-		
-		// Juste ici il faut que tu fasses ta boucle sur les items
-		
-		
-       /* var annotation = object.annotation;
-        annotation.surfaceForm.forEach(function (data) {
-          if(data.resource) {
-            //If it's an array, length will not be undefined
-            if(data.resource.length !== undefined) {
-              data.resource.forEach(function (resource) {
-                //Push all the results as object keys (so they can be unique)
-                resources[resource["@uri"]] = true;
-              });
-            } else {
-              //Push the object result as an object key (so it can be unique)
-              resources[data.resource["@uri"]] = true;
-            }
-          }
-        });
-        var URIList = [];
-        //Iterates over all object keys and add them to the list
-        Object.keys(resources).forEach(function(resource) {
-          URIList.push(RESOURCE_URI + resource);
-        });
-        console.log(URIList);*/
+        
+        console.log(URIList);
         callback(URIList);
+
       });
     }
   }
