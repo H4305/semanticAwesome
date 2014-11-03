@@ -50,7 +50,7 @@ module.exports = (function() {
         }		
         var content_text = object.text;
 		
-		var text_sliced = content_text.substring(0,150);
+		var text_sliced = content_text.substring(0,500);
 
 
 		//Just in order to reduce the number of words

@@ -39,6 +39,23 @@ app.get('/testGoogleAPI', function (req, res) {
 	});
 });
 
+app.get('/testGoogleAlchemy', function (req, res) {
+
+	var response = "";
+	//Query = sushi
+	google.getResources("sushi", function (URIList) {
+
+		URIList.forEach(function(URI) {
+			alchemy.getResources(URI, function (content_text) {
+				response += content_text + "<br><br>"; 
+				console.log(content_text);
+			});
+		});
+
+		res.send(response);
+	});
+});
+
 app.get('/', function (req, res) {
 
 	var results = "Bonjour";
