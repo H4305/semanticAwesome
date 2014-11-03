@@ -21,7 +21,7 @@ module.exports = (function() {
     request({
       uri: DBPEDIA_SPOTLIGHT + args,
       method: "GET",
-      timeout: 15000,
+      timeout: 30000,
       followRedirect: true,
       headers: {
         "Accept": "application/json"
