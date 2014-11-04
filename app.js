@@ -4,6 +4,8 @@ var alchemy = require('./alchemyRequest.js');
 var google = require('./googleRequest.js');
 var app = express();
 
+var mustacheExpress = require('mustache-express');
+
 var text = "Nice is a large city in France on the French Riviera. It's a popular destination for vacationers both young and old, with something to offer nearly everyone. It is well known for the beautiful view on the Promenade des Anglais, its famous waterfront, and is an ethnically diverse port city. ";
 
 var url = "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program";
@@ -56,13 +58,24 @@ app.get('/testGoogleAlchemy', function (req, res) {
 	});
 });
 
-app.get('/', function (req, res) {
+app.route('/search').get(function(req,res,next){
 
-	var results = "Bonjour";
 
-	res.send(results);
+
+  	res.send("Bonjour : " + req.query.q);
+
+  	
 });
 
+app.route('/').get(function(req,res,next){
+  res.render('home');
+});
+
+app.engine('mustache', mustacheExpress());
+
+app.set('view engine', 'mustache');
+app.set('views', __dirname + '/views');
+app.use(express.static('public'));
 
 var server = app.listen(3000, function () {
 
