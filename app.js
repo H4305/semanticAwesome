@@ -23,7 +23,7 @@ var tabGlobal = [];
 			alchemy.getResources(URIgoogle, function (content_text) {
 				spotlight.getResources(content_text, function (URIList) { 
 					
-					console.log("LOOOOL" + rangGoogle + " lalalalal " + URIList);
+					//console.log("LOOOOL" + rangGoogle + " lalalalal " + URIList);
 					
 					tout.getJaccard(URIList, URIListBase, function (coeffJacard) {
 
