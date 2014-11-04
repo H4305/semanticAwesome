@@ -1,0 +1,42 @@
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: Georgia, Times, "Times New Roman", sans-serif;
+  font-size: 80px;
+  margin:0;
+  padding:30px 10px;
+  text-align: center;
+}
+
+.blue {
+  color:#2070e9;
+}
+.red {
+  color:#d94739;
+}
+.yellow {
+  color:#fdb72f;
+}
+
+small {
+  font-family:Helvetica;
+  font-weight: bold;
+  color: #666;
+}
+
+.main {
+  text-align: center;
+}
+
+.search-input {
+  width: 800px;
+  line-height: 80px;
+  font-size: 50px;
+  padding: 20px;
+  position:relative;
+  margin:auto;
+  border-radius:20px;
+  border:1px solid #ddd;
+}
