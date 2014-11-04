@@ -2,16 +2,15 @@ var express = require('express');
 var spotlight = require('./spotlightRequest.js');
 var alchemy = require('./alchemyRequest.js');
 var google = require('./googleRequest.js');
+var prefix = require('./autoComplete.js')
 var tout = require('./src/tout.js');
 var app = express();
 
 var tabGlobal = [];
 
 var mustacheExpress = require('mustache-express');
-app.get('/', function (req, res) {
+
 app.route('/search').get(function(req,res,next){
-
-
 
 	var results = "Bonjour";
   	res.send("Bonjour : " + req.query.q);
@@ -30,7 +29,23 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname + '/views');
 app.use(express.static('public'));
 
+app.route('/autoComplete/:query').get(function(req,res){
 
+	prefix.getResources(req.params.query, function(LabelsList) {
+		var jSonResult = "{\"Labels\": ";
+
+		LabelsList.forEach(function(Label) {
+			jSonResult += "\"" + Label + "\",";
+		});
+		jSonResult = jSonResult.substring(0, jSonResult.length-1);
+		jSonResult += "}";
+		res.send(jSonResult);
+
+	});
+  	
+});
+
+/*
 //app.get('/test', function (req, res) {
 (function() {
 	var requeste = "city of berlin in germany";
@@ -69,7 +84,7 @@ app.use(express.static('public'));
 	});
 	console.log("Voila la liste : <br>");
 	console.log(response);
-})();
+})();*/
 
 
 var server = app.listen(3000, function () {
