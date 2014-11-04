@@ -59,12 +59,7 @@ app.get('/testGoogleAlchemy', function (req, res) {
 });
 
 app.route('/search').get(function(req,res,next){
-
-
-
-  	res.send("Bonjour : " + req.query.q);
-
-  	
+	res.render('results', {query:req.query.q});
 });
 
 app.route('/').get(function(req,res,next){
