@@ -20,15 +20,25 @@ var objects = [];
 
 var graphNumber = 0;
 
-
-var uriList = [
+var uriListA = [
     "Michelle_Obama",
-    "Thursday_Next",
-    "United_States_Congress",
-    "Student",
-    "Packaging_and_labeling",
-    "Policy",
+    // "Thursday_Next",
+    // "United_States_Congress",
+    // "Student",
+    // "Packaging_and_labeling",
+    // "Policy",
     "Assistance_dog"];
+
+var uriListB = [
+"Presidency_of_Barack_Obama",
+// "Sheffield_Wednesday_F.C.",
+// "United_States_Congress",
+// "Student",
+// "University",
+// "Packaging_and_labeling",
+// "Policy",
+"Assistance_dog"
+ ];
 
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(
@@ -38,26 +48,10 @@ var server = http.createServer(
         });
 
 
-/** MAIN **/
-(function() {
-    var uri;
-    var total = "";
-    var done = 0;
-    //var input = fs.createReadStream('output.txt');
-    for(var i=0; i<uriList.length; i++) { 
-        uri = uriList[i];   
-        getRDF(uri, function(output) {
-            total += output + "\n";
-            done++;
-            doIfFinished(done==uriList.length, function(){
-                return  sendRDFData(total, function(chunk) {
-                    console.log(chunk);
-                })
-                });
 
-        });
-    }
-    
+
+(function() {
+    getJaccard(uriListA, uriListB, console.log);    
 })();
 
 /*
@@ -74,15 +68,36 @@ function getNtriples(uriList, callback) {
         getRDF(uri, function(output) {
             set.push(getNtriplesForData(output));
             done++;
-            doIfFinished(done==uriList.length, function() {
+            doIfFinished(done==uriList.length-1, function() {
                 callback(set);
-                })
             });
 
         });
     }
 }
 
+
+function getJaccard(uriListA, uriListB, callback) {
+    var triplesA = [];
+    var triplesB = [];
+    getNtriples(uriListA, function(array) {
+        triplesA = array;
+        if(triplesB.length > 0) {
+            console.log(triplesA);
+            console.log(triplesB);
+            callback(jaccard.index(triplesB, triplesA));
+        }
+        });
+
+    getNtriples(uriListB, function(array) {
+        triplesB = array;
+        if(triplesA.length > 0) {
+            console.log(triplesA);
+            console.log(triplesB);
+            callback(jaccard.index(triplesB, triplesA));
+        }
+        });
+}
 
 function doIfFinished(condition, func, args) {
     if(condition) {
@@ -143,7 +158,7 @@ function sendRDFData(data, callback) {
 
 
 function getUniqSubjectUri(data) {
-    var results = [];
+    var results = new Array([]);;
     _.each(data.split('\n'), function(element, index, list) {
         results.push(element.split(new RegExp("[\\n\\t\\s]+")).filter(Boolean)[0]);
     });
@@ -151,12 +166,16 @@ function getUniqSubjectUri(data) {
 }
 
 function getNtriplesForData(data) {
-    var results = [];
-    // _.each(data.split('\n'), function(element, index, list) {
-    //     //console.log(element);
-    //     result.push(element.match(/"[^"]*"[^\s\n\t]+|[^\s"]+/g));
-    // });
-    return data.split('\n');
+    var result = new Array([]);
+    _.each(data.split('\n'), function(element, index, list) {
+        //console.log(element);
+        var array = element.match(/"[^"]*"[^\s\n\t]+|[^\s"]+/g);
+        console.log(array);
+        if(array != null && array[2][0] != '"') {
+            result.push(array[0] + " " + array[1] + " " + array[2]);
+        }
+    });
+    return result;
 }
 
 
