@@ -25,7 +25,9 @@
   "homepage": "https://github.com/H4305/semanticAwesome",
   "dependencies": {
     "express": "^4.10.1",
+    "jaccard": "^0.3.0",
     "mustache-express": "^1.2.0",
-    "request": "^2.47.0"
+    "request": "^2.47.0",
+    "underscore": "^1.7.0"
   }
 }

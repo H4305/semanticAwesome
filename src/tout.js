@@ -26,14 +26,17 @@ module.exports = (function() {
     
     return {
         getJaccard : function getJaccard(uriListA, uriListB, callback) {
-            
+            var Aready = false,
+                Bready = false;
             getNtriples(uriListA, function (list){
                             setTriplesA = list;   
                             if(setTriplesB.length > 0) {     
                                 /*console.log(setTriplesB.length);
                                 console.log("-----------------------------------------------------");
                                 console.log(setTriplesA.length); */       
-                                callback(jaccard.index(setTriplesA, setTriplesB));
+                                if(Bready == true)
+                                    callback(jaccard.index(setTriplesA, setTriplesB));
+                                Aready = true;
                             }
             }); 
             getNtriples(uriListB, function (list){
@@ -42,7 +45,9 @@ module.exports = (function() {
                                 /*console.log(setTriplesB.length);
                                 console.log("-----------------------------------------------------");
                                 console.log(setTriplesA.length); */  
-                                callback(jaccard.index(setTriplesA, setTriplesB));
+                                if(Aready == true)
+                                    callback(jaccard.index(setTriplesA, setTriplesB));
+                                Bready = true;
                             }             
             });
             

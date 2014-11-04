@@ -6,6 +6,8 @@ var prefix = require('./autoComplete.js')
 var tout = require('./src/tout.js');
 var app = express();
 
+var mustacheExpress = require('mustache-express');
+
 var tabGlobal = [];
 
 var mustacheExpress = require('mustache-express');
