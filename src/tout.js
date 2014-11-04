@@ -41,29 +41,34 @@ var server = http.createServer(
 
 var setTriplesA = [];
 var setTriplesB = [];
-function getJaccard(uriListA, uriListB, callback) {
-    
-    getNtriples(uriListA, function (list){
-                    setTriplesA = list;   
-                    if(setTriplesB.length > 0) {     
-                        console.log(setTriplesB.length);
-                        console.log("-----------------------------------------------------");
-                        console.log(setTriplesA.length);        
-                        callback(jaccard.index(setTriplesA, setTriplesB));
-                    }
-    }); 
-    getNtriples(uriListB, function (list){
-                    setTriplesB = list;   
-                    if(setTriplesA.length > 0) {
-                        console.log(setTriplesB.length);
-                        console.log("-----------------------------------------------------");
-                        console.log(setTriplesA.length);   
-                        callback(jaccard.index(setTriplesA, setTriplesB));
-                    }             
-    }); 
-}
 
-var jacardMatrix = getJaccard(uriListA, uriListB, console.log);
+module.exports = (function() {
+    
+    return {
+        getJaccard : function getJaccard(uriListA, uriListB, callback) {
+            
+            getNtriples(uriListA, function (list){
+                            setTriplesA = list;   
+                            if(setTriplesB.length > 0) {     
+                                console.log(setTriplesB.length);
+                                console.log("-----------------------------------------------------");
+                                console.log(setTriplesA.length);        
+                                callback(jaccard.index(setTriplesA, setTriplesB));
+                            }
+            }); 
+            getNtriples(uriListB, function (list){
+                            setTriplesB = list;   
+                            if(setTriplesA.length > 0) {
+                                console.log(setTriplesB.length);
+                                console.log("-----------------------------------------------------");
+                                console.log(setTriplesA.length);   
+                                callback(jaccard.index(setTriplesA, setTriplesB));
+                            }             
+            }); 
+        }
+    }
+})();
+
 
 
 /*

@@ -67,12 +67,13 @@ module.exports = (function() {
 
         var URIList = [object['items'][0]['link']];
 
+        console.log("LENGTH = " + JSONObjSize);
+
         for (i = 1; i < JSONObjSize; i++)
         { 
           URIList.push(object['items'][i]['link']);
         }
-        
-        console.log(URIList);
+
         callback(URIList);
 
       });

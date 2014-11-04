@@ -75,7 +75,7 @@ module.exports = (function() {
         var URIList = [];
         //Iterates over all object keys and add them to the list
         Object.keys(resources).forEach(function(resource) {
-          URIList.push(RESOURCE_URI + resource);
+          URIList.push(resource);
         });
         console.log(URIList);
         callback(URIList);
