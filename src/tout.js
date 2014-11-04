@@ -12,26 +12,6 @@ var jena_data_endpoint = "data";
 var dbpedia_filetype = "ntriples";
 
 
-var uriListA = [
-    "Michelle_Obama",
-    "Thursday_Next",
-    "United_States_Congress",
-    "Student",
-    "Packaging_and_labeling",
-    "Policy",
-    "Assistance_dog"];
-
-var uriListB = [
-"Presidency_of_Barack_Obama",
- "Sheffield_Wednesday_F.C.",
- "United_States_Congress",
- "Student",
- "University",
- "Packaging_and_labeling",
- "Policy",
-"Assistance_dog"
- ];
-
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(
     function (request, response) {
@@ -41,29 +21,36 @@ var server = http.createServer(
 
 var setTriplesA = [];
 var setTriplesB = [];
-function getJaccard(uriListA, uriListB, callback) {
-    
-    getNtriples(uriListA, function (list){
-                    setTriplesA = list;   
-                    if(setTriplesB.length > 0) {     
-                        console.log(setTriplesB.length);
-                        console.log("-----------------------------------------------------");
-                        console.log(setTriplesA.length);        
-                        callback(jaccard.index(setTriplesA, setTriplesB));
-                    }
-    }); 
-    getNtriples(uriListB, function (list){
-                    setTriplesB = list;   
-                    if(setTriplesA.length > 0) {
-                        console.log(setTriplesB.length);
-                        console.log("-----------------------------------------------------");
-                        console.log(setTriplesA.length);   
-                        callback(jaccard.index(setTriplesA, setTriplesB));
-                    }             
-    }); 
-}
 
-var jacardMatrix = getJaccard(uriListA, uriListB, console.log);
+module.exports = (function() {
+    
+    return {
+        getJaccard : function getJaccard(uriListA, uriListB, callback) {
+            
+            getNtriples(uriListA, function (list){
+                            setTriplesA = list;   
+                            if(setTriplesB.length > 0) {     
+                                /*console.log(setTriplesB.length);
+                                console.log("-----------------------------------------------------");
+                                console.log(setTriplesA.length); */       
+                                callback(jaccard.index(setTriplesA, setTriplesB));
+                            }
+            }); 
+            getNtriples(uriListB, function (list){
+                            setTriplesB = list;   
+                            if(setTriplesA.length > 0) {
+                                /*console.log(setTriplesB.length);
+                                console.log("-----------------------------------------------------");
+                                console.log(setTriplesA.length); */  
+                                callback(jaccard.index(setTriplesA, setTriplesB));
+                            }             
+            });
+            
+             
+        }
+    }
+})();
+
 
 
 /*
