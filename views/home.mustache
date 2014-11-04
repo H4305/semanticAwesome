@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="/styles/main.css">
   <link rel="Shortcut Icon" href="/img/icon.png">
   <title>SemanticAwesome : the best way to find what you need.</title>
-  <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
-  <h1><span class="blue">Sem</span><span class="red">ant</span><span class="yellow">ic</span><span class="blue">Awe</span><span class="red">some</span></h1>
+  <div class="bodyDiv">
+    <h1><span class="blue">Sem</span><span class="red">ant</span><span class="yellow">ic</span><span class="blue">Awe</span><span class="red">some</span></h1>
+    
+    <div class="inputSearch">
+      <input id="searchQuery" type="text" class="search-input">
 
-  <input id="searchQuery" type="text" class="search-input">
-
-  <button id="searchButton"> GO! </button>
+      <img id="search-img" src="/img/Search.png"></img>
+    </div>
   <script>
-    document.getElementById("searchButton").addEventListener('click', function() {
-    window.location = "/search?q="+searchQuery.value;
+    document.getElementById("search-img").addEventListener('click', function() {
+      window.location = "/search?q="+searchQuery.value;
     })
   </script>
 
