@@ -46,18 +46,18 @@ function getJaccard(uriListA, uriListB, callback) {
     getNtriples(uriListA, function (list){
                     setTriplesA = list;   
                     if(setTriplesB.length > 0) {     
-                        console.log(setTriplesB);
+                        console.log(setTriplesB.length);
                         console.log("-----------------------------------------------------");
-                        console.log(setTriplesA);        
+                        console.log(setTriplesA.length);        
                         callback(jaccard.index(setTriplesA, setTriplesB));
                     }
     }); 
     getNtriples(uriListB, function (list){
                     setTriplesB = list;   
                     if(setTriplesA.length > 0) {
-                        console.log(setTriplesB);
+                        console.log(setTriplesB.length);
                         console.log("-----------------------------------------------------");
-                        console.log(setTriplesA);   
+                        console.log(setTriplesA.length);   
                         callback(jaccard.index(setTriplesA, setTriplesB));
                     }             
     }); 
