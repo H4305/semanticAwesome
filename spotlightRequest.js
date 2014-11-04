@@ -28,7 +28,7 @@ module.exports = (function() {
       },
       maxRedirects: 3
     }, function(error, response, body) {
-      console.log(error);
+      //console.log(error);
       var responseObj = null;
       if(!error) {
         responseObj = JSON.parse(body);
@@ -77,7 +77,7 @@ module.exports = (function() {
         Object.keys(resources).forEach(function(resource) {
           URIList.push(resource);
         });
-        console.log(URIList);
+        //console.log(URIList);
         callback(URIList);
       });
     }

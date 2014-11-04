@@ -5,28 +5,40 @@ var google = require('./googleRequest.js');
 var tout = require('./src/tout.js');
 var app = express();
 
+var tabGlobal = [];
+
 //app.get('/test', function (req, res) {
 (function() {
 	var requeste = "city of berlin in germany";
 	var URIListBase;
+	var rangGoogle = 0;
 	spotlight.getResources(requeste, function (spot) {URIListBase = spot});
 
 	var response = "";
 	google.getResources(requeste, function (URIListGoogle) {
-
-		URIListGoogle.forEach(function(URIgoogle) {
+		console.log('-------------------');
+		console.log(URIListGoogle);
+		console.log('-------------------');
+		URIListGoogle.forEach(function(URIgoogle) { 
 			alchemy.getResources(URIgoogle, function (content_text) {
-				spotlight.getResources(content_text, function (URIList) {
+				spotlight.getResources(content_text, function (URIList) { 
+					
+					console.log("LOOOOL" + rangGoogle + " lalalalal " + URIList);
+					
 					tout.getJaccard(URIList, URIListBase, function (coeffJacard) {
+
 						var resultRankingRow = [];
 						resultRankingRow[0] = URIgoogle;
 						resultRankingRow[1] = coeffJacard;
+						resultRankingRow[2] = rangGoogle++;
 						
+						tabGlobal.push(resultRankingRow);
+						console.log('row:' + resultRankingRow);
 						// mettre resultRankingRow dans un tableau global
 						// et sort by coeffJacard
 						
-						console.log(resultRankingRow);
-						});
+						
+					});					
 				});
 			});
 		});
