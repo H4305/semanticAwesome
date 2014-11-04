@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+      <meta charset="UTF-8">
+      <link href="styles.css" rel="stylesheet" type="text/css" />
+      <title>Using Google and JSON</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script src="jquery.js"></script>
+      <script type="text/javascript">
+      
+          var links;
+
+          function httpGet()
+          { 
+              var xmlHttp = null;
+              var query = document.getElementById("searchText").value            
+              var gkey = "AIzaSyDTKQHpVvvyAiVBF92GH4E0CE-fHSkr16E";
+
+              var theUrl = "https://www.googleapis.com/customsearch/v1?key=" + gkey + "&cx=017576662512468239146:omuauf_lfve&q=" + query;
+              xmlHttp = new XMLHttpRequest();
+              xmlHttp.open( "GET", theUrl, false );
+              xmlHttp.send( null );
+
+              var HttpResponse = JSON.parse(xmlHttp.responseText);
+
+              links = [ HttpResponse['items'][0]['link'] ];
+
+              for (i = 1; i < HttpResponse['items'].length; i++)
+              {    
+                  var link = HttpResponse['items'][i]['link'];
+                  console.log(link);
+                  links.push(link);
+              } 
+
+              testContent(links);
+
+              console.log("httpGet :: END");
+
+              return;
+          }
+
+          function testContent(array)
+          {
+              for (i = 0; i < array.length; i++)
+                {    
+                    //$('#printHere').html(  $('#printHere').text() + array[i] + "\n" );
+
+                    $('#printHere').append(array[i] + "<br>" );
+                } 
+          }
+          
+      </script>
+</head>
+<body>
+      Type in a search:<input type="text" id="searchText" value="sushi"/>
+      <input type="button" value="Search!" id="searchButton" onclick="httpGet()" />
+
+      <span id="printHere">
+          
+      </span>
+</body>
+</html>

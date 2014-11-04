@@ -21,7 +21,7 @@ module.exports = (function() {
     request({
       uri: DBPEDIA_SPOTLIGHT + args,
       method: "GET",
-      timeout: 15000,
+      timeout: 30000,
       followRedirect: true,
       headers: {
         "Accept": "application/json"
@@ -75,7 +75,7 @@ module.exports = (function() {
         var URIList = [];
         //Iterates over all object keys and add them to the list
         Object.keys(resources).forEach(function(resource) {
-          URIList.push(resource);
+          URIList.push(RESOURCE_URI + resource);
         });
         console.log(URIList);
         callback(URIList);
