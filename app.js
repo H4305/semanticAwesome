@@ -9,6 +9,30 @@ var mustacheExpress = require('mustache-express');
 
 var tabGlobal = [];
 
+var mustacheExpress = require('mustache-express');
+app.get('/', function (req, res) {
+app.route('/search').get(function(req,res,next){
+
+
+
+	var results = "Bonjour";
+  	res.send("Bonjour : " + req.query.q);
+
+	res.send(results);
+  	
+});
+
+app.route('/').get(function(req,res,next){
+  res.render('home');
+});
+
+app.engine('mustache', mustacheExpress());
+
+app.set('view engine', 'mustache');
+app.set('views', __dirname + '/views');
+app.use(express.static('public'));
+
+
 //app.get('/test', function (req, res) {
 (function() {
 	var requeste = "city of berlin in germany";
@@ -45,25 +69,10 @@ var tabGlobal = [];
 			});
 		});
 	});
-
 	console.log("Voila la liste : <br>");
 	console.log(response);
 })();
 
-
-app.route('/search').get(function(req,res,next){
-	res.render('results', {query:req.query.q});
-});
-
-app.route('/').get(function(req,res,next){
-  res.render('home');
-});
-
-app.engine('mustache', mustacheExpress());
-
-app.set('view engine', 'mustache');
-app.set('views', __dirname + '/views');
-app.use(express.static('public'));
 
 var server = app.listen(3000, function () {
 
