@@ -38,19 +38,6 @@ small {
   text-align: center;
 }
 
-.search-input {
-  width: 80%;
-  line-height: 60px;
-  font-size: 40px;
-  padding: 20px;
-  position: relative;
-  margin-right: auto;
-  margin-left: 0;
-  margin-top: 0%;
-  border-radius:20px;
-  border:1px solid #000;
-}
-
 .bodyDiv {
     position: fixed;
     /* center the element */
@@ -73,20 +60,28 @@ small {
     margin-left: auto;
     margin-top: 5%;
     /* give it dimensions */
-    min-height: 10em;
     width: 60%;
-    height: 30px;
+    height: 60px;
     border-radius: 20px;
     border: 3px solid #ddd;
 }
 
-.searchButton {
-    float: right;
-    width: 1000px;
+.search-input {
+  position: relative;
+  width: 80%;
+  line-height: 20px;
+  font-size: 18px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: 0;
+  margin-top: 0%;
+  border-radius:20px;
+  border:1px solid #000;
 }
 
 #search-img {
-    width: 10%; /* you can use % */
+    position: fixed;
+    width: 4.4%; /* you can use % */
     height: auto;
     margin-top: 0%;
     margin-right: 0%;
