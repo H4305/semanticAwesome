@@ -28,6 +28,15 @@ h1 {
   color:#fdb72f;
 }
 
+h2 {
+  font-family: Georgia, Times, "Times New Roman", sans-serif;
+  font-size: 20px;
+  margin:0;
+  padding:30px 10px;
+  text-align: center;
+  color: #ddd;
+}
+
 small {
   font-family:Helvetica;
   font-weight: bold;
@@ -46,9 +55,14 @@ small {
     margin-right: auto;
     margin-left: auto;
     margin-top: 0%;
+    margin-bottom: 0%;
     /* give it dimensions */
     min-height: 10em;
     width: 90%;
+}
+
+.inputSearch:hover {
+  box-shadow: 0px 0px 8px 2px #66CD00;
 }
 
 .inputSearch {
@@ -60,32 +74,46 @@ small {
     margin-left: auto;
     margin-top: 5%;
     /* give it dimensions */
-    width: 60%;
-    height: 60px;
-    border-radius: 20px;
-    border: 3px solid #ddd;
+    width: 600px;
+    height: 61px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 2px #000;
 }
 
 .search-input {
   position: relative;
-  width: 80%;
-  line-height: 20px;
+  width: 500px;
+  line-height: 16px;
   font-size: 18px;
   padding: 20px;
   margin-right: auto;
   margin-left: 0;
   margin-top: 0%;
-  border-radius:20px;
-  border:1px solid #000;
+  margin-bottom: 0%;
+  border:1px solid #fff;
 }
 
 #search-img {
-    position: fixed;
-    width: 4.4%; /* you can use % */
+    cursor: hand;
+    position: absolute;
+    width: 56px; /* you can use % */
     height: auto;
-    margin-top: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-right: 0%;
     margin-left: auto;
-    border-radius: 20px;
-    border: 3px solid #ddd;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#search-img:hover {
+    cursor: pointer;
+    webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
 }

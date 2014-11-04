@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/styles/main.css">
@@ -9,6 +10,7 @@
 <body>
   <div class="bodyDiv">
     <h1><span class="blue">Sem</span><span class="red">ant</span><span class="yellow">ic</span><span class="blue">Awe</span><span class="red">some</span></h1>
+    <h2><span class="subtitle">Easy. Fast. Strong.</span></h2>
     
     <div class="inputSearch">
       <input id="searchQuery" type="text" class="search-input">
@@ -19,6 +21,15 @@
     document.getElementById("search-img").addEventListener('click', function() {
       window.location = "/search?q="+searchQuery.value;
     })
+
+    $(document).keypress(function(event){
+      var keycode = (event.keyCode ? event.keyCode : event.which);
+      if(keycode == '13'){
+        window.location = "/search?q="+searchQuery.value; 
+      }
+ 
+    });
+
   </script>
 
 </body>
