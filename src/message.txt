@@ -1,0 +1,115 @@
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns1:	<http://de.dbpedia.org/resource/> .
+@prefix dbpedia:	<http://dbpedia.org/resource/> .
+ns1:Assistenzhund	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns3:	<http://wikidata.dbpedia.org/resource/> .
+ns3:Q38629	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns4:	<http://es.dbpedia.org/resource/> .
+ns4:Perro_de_asistencia	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns5:	<http://ja.dbpedia.org/resource/> .
+ns5:身体障害者補助犬	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns6:	<http://nl.dbpedia.org/resource/> .
+ns6:Assistentiehond	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns7:	<http://pl.dbpedia.org/resource/> .
+ns7:Pies_towarzyszący	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns8:	<http://pt.dbpedia.org/resource/> .
+ns8:Cão_de_assistência	owl:sameAs	dbpedia:Assistance_dog .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix ns10:	<http://en.wikipedia.org/wiki/> .
+ns10:Assistance_dog	foaf:primaryTopic	dbpedia:Assistance_dog .
+<http://ca.dbpedia.org/resource/Gos_d\u0027assist\u00E8ncia>	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns11:	<http://et.dbpedia.org/resource/> .
+ns11:Abikoer	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns12:	<http://ms.dbpedia.org/resource/> .
+ns12:Anjing_pembantu	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns13:	<http://no.dbpedia.org/resource/> .
+ns13:Hjelpehund	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns14:	<http://sk.dbpedia.org/resource/> .
+ns14:Asistenčný_pes	owl:sameAs	dbpedia:Assistance_dog .
+@prefix ns15:	<http://sv.dbpedia.org/resource/> .
+ns15:Assistanshund	owl:sameAs	dbpedia:Assistance_dog .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix yago:	<http://dbpedia.org/class/yago/> .
+dbpedia:Assistance_dog	rdf:type	yago:PhysicalEntity100001930 ,
+		yago:DomesticAnimal101317541 ,
+		yago:Carnivore102075296 ,
+		yago:Dog102084071 ,
+		yago:Canine102083346 ,
+		yago:Mammal101861778 ,
+		yago:Object100002684 ,
+		yago:Whole100003553 ,
+		yago:AssistanceDogs ,
+		yago:Placental101886756 ,
+		yago:Animal100015388 ,
+		yago:Vertebrate101471682 ,
+		yago:Chordate101466257 ,
+		yago:Organism100004475 ,
+		yago:LivingThing100004258 ;
+	owl:sameAs	<http://rdf.freebase.com/ns/m.01cxws> ,
+		ns4:Perro_de_asistencia ,
+		ns12:Anjing_pembantu .
+@prefix ns18:	<http://yago-knowledge.org/resource/> .
+dbpedia:Assistance_dog	owl:sameAs	ns18:Assistance_dog ,
+		ns1:Assistenzhund ,
+		ns5:身体障害者補助犬 ,
+		ns14:Asistenčný_pes .
+@prefix ns19:	<http://wikidata.org/entity/> .
+dbpedia:Assistance_dog	owl:sameAs	ns19:Q38629 ,
+		ns3:Q38629 ,
+		dbpedia:Assistance_dog ,
+		ns13:Hjelpehund ,
+		ns15:Assistanshund ,
+		ns6:Assistentiehond ,
+		ns11:Abikoer ,
+		ns8:Cão_de_assistência ,
+		<http://ca.dbpedia.org/resource/Gos_d\u0027assist\u00E8ncia> ,
+		ns7:Pies_towarzyszący .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbpedia:Assistance_dog	rdfs:label	"Assistance dog"@en ,
+		"Perro de asistencia"@es ,
+		"Pies towarzysz\u0105cy"@pl ,
+		"C\u00E3o de assist\u00EAncia"@pt ,
+		"\u8EAB\u4F53\u969C\u5BB3\u8005\u88DC\u52A9\u72AC"@ja ,
+		"Assistentiehond"@nl ,
+		"Assistenzhund"@de .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+@prefix category:	<http://dbpedia.org/resource/Category:> .
+dbpedia:Assistance_dog	dcterms:subject	category:Assistance_dogs ;
+	foaf:depiction	<http://en.wikipedia.org/wiki/Special:FilePath/RovingRebel_door.jpg> .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbpedia:Assistance_dog	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Assistance_dog?oldid=588524399> ;
+	rdfs:comment	"Ein Assistenzhund, auch Rehabilitationshund genannt, ist ein Hund, der so ausgesucht und ausgebildet wird, dass er in der Lage ist, einem Menschen mit k\u00F6rperlichen oder geistigen Einschr\u00E4nkungen ausgefallene oder fehlende Sinnes- und/oder K\u00F6rperfunktionen so gut wie m\u00F6glich zu ersetzen.Die h\u00E4ufigste und bekannteste Form von Assistenzhunden sind Blindenf\u00FChrhunde. Daneben gibt es beispielsweise Signalhunde, Diabetikerwarnhunde, Epilepsiehunde und Kombinationshunde."@de ,
+		"\u8EAB\u4F53\u969C\u5BB3\u8005\u88DC\u52A9\u72AC\uFF08\u3057\u3093\u305F\u3044\u3057\u3087\u3046\u304C\u3044\u3057\u3083\u307B\u3058\u3087\u3051\u3093\uFF09\u3001\u30A2\u30B7\u30B9\u30BF\u30F3\u30C8\u30C9\u30C3\u30B0\uFF08Assistance Dog\uFF09\u306F\u3001\u4EBA\u3092\u52A9\u3051\u308B\u30A4\u30CC\u3001\u7279\u306B\u8EAB\u4F53\u969C\u5BB3\u8005\u88DC\u52A9\u72AC\u6CD5\u3067\u898F\u5B9A\u3055\u308C\u305F\u3001\u76F2\u5C0E\u72AC - \u8996\u899A\u969C\u5BB3\u8005\u306E\u624B\u52A9\u3051\u3092\u3059\u308B\u8074\u5C0E\u72AC - \u8074\u899A\u969C\u5BB3\u8005\u306E\u624B\u52A9\u3051\u3092\u3059\u308B\u4ECB\u52A9\u72AC - \u80A2\u4F53\u4E0D\u81EA\u7531\u8005\u306E\u624B\u52A9\u3051\u3092\u3059\u308B\u3092\u3044\u3046\u3002"@ja ,
+		"Um C\u00E3o de Assist\u00EAncia \u00E9 um c\u00E3o educado individualmente a fim de realizar tarefas que aumentem a autonomia e a funcionalidade de pessoas com defici\u00EAncia. Existem v\u00E1rios tipos de c\u00E3o de assist\u00EAncia: C\u00E3o-guia: de ajuda a pessoas com defici\u00EAncia visual; C\u00E3o ouvinte, ou c\u00E3o para surdos: indica as fontes sonoras, para pessoas surdas; C\u00E3o de alerta: avisa pessoas, por exemplo com epilepsia, da emin\u00EAncia de um ataque; C\u00E3o de servi\u00E7o: ajuda pessoas com defici\u00EAncias motoras.== Refer\u00EAncias =="@pt ,
+		"Een assistentiehond is een hond die speciaal getraind is om mensen met een handicap te helpen.Volgens Assistance Dogs International zijn er drie soorten assistentiehonden: Geleidehonden voor de blinden en visueel beperkten Signaalhonden voor de doven en slechthorendenADL-honden of hulphonden voor mensen met een andere beperking die niet visueel of auditief is, waaronder de epilepsiehond en de autismegeleidehond.In Nederland houden vijf opleidingsinstituten zich bezig met de opleiding en training van assistentiehonden.In Belgi\u00EB leiden 12 verenigingen assistentiehonden op. "@nl ,
+		"An assistance dog is a dog trained to aid or assist a person with a disability. Many are trained by a specific organization, while others are trained by their handler (sometimes with the help of a professional trainer)."@en ,
+		"Pies towarzysz\u0105cy, pies opiekun (ang. assistance dog, service dog) \u2013 pies specjalnie szkolony w celu pomocy osobom niepe\u0142nosprawnym: pies przewodnik (guide dog, seeing eye dog, fr. chien guide d'aveugle) \u2013 pies szkolony na przewodnika dla niewidomego lub niedowidz\u0105cego. pies dla nies\u0142ysz\u0105cego (hearing dog, hearing ear dog) \u2013 pies szkolony w kierunku rozpoznawania odg\u0142os\u00F3w domowych i wskazywania ich nies\u0142ysz\u0105cemu lub niedos\u0142ysz\u0105cemu."@pl ,
+		"Un perro de asistencia, es aquel entrenado para ayudar y asistir a una persona con discapacidad.Muchos de ellos son entrenados por asociaciones espec\u00EDficas, mientras otras lo son por los propios usuarios con o sin ayuda de un entrenador canino profesional."@es ;
+	foaf:isPrimaryTopicOf	ns10:Assistance_dog .
+@prefix dbpprop:	<http://dbpedia.org/property/> .
+@prefix ns25:	<http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/> .
+dbpedia:Assistance_dog	dbpprop:hasPhotoCollection	ns25:Assistance_dog .
+@prefix dbpedia-owl:	<http://dbpedia.org/ontology/> .
+dbpedia:Assistance_dog	dbpedia-owl:thumbnail	<http://en.wikipedia.org/wiki/Special:FilePath/RovingRebel_door.jpg?width=300> ;
+	dbpedia-owl:abstract	"An assistance dog is a dog trained to aid or assist a person with a disability. Many are trained by a specific organization, while others are trained by their handler (sometimes with the help of a professional trainer)."@en ,
+		"Um C\u00E3o de Assist\u00EAncia \u00E9 um c\u00E3o educado individualmente a fim de realizar tarefas que aumentem a autonomia e a funcionalidade de pessoas com defici\u00EAncia. Existem v\u00E1rios tipos de c\u00E3o de assist\u00EAncia: C\u00E3o-guia: de ajuda a pessoas com defici\u00EAncia visual; C\u00E3o ouvinte, ou c\u00E3o para surdos: indica as fontes sonoras, para pessoas surdas; C\u00E3o de alerta: avisa pessoas, por exemplo com epilepsia, da emin\u00EAncia de um ataque; C\u00E3o de servi\u00E7o: ajuda pessoas com defici\u00EAncias motoras.== Refer\u00EAncias =="@pt ,
+		"\u8EAB\u4F53\u969C\u5BB3\u8005\u88DC\u52A9\u72AC\uFF08\u3057\u3093\u305F\u3044\u3057\u3087\u3046\u304C\u3044\u3057\u3083\u307B\u3058\u3087\u3051\u3093\uFF09\u3001\u30A2\u30B7\u30B9\u30BF\u30F3\u30C8\u30C9\u30C3\u30B0\uFF08Assistance Dog\uFF09\u306F\u3001\u4EBA\u3092\u52A9\u3051\u308B\u30A4\u30CC\u3001\u7279\u306B\u8EAB\u4F53\u969C\u5BB3\u8005\u88DC\u52A9\u72AC\u6CD5\u3067\u898F\u5B9A\u3055\u308C\u305F\u3001\u76F2\u5C0E\u72AC - \u8996\u899A\u969C\u5BB3\u8005\u306E\u624B\u52A9\u3051\u3092\u3059\u308B\u8074\u5C0E\u72AC - \u8074\u899A\u969C\u5BB3\u8005\u306E\u624B\u52A9\u3051\u3092\u3059\u308B\u4ECB\u52A9\u72AC - \u80A2\u4F53\u4E0D\u81EA\u7531\u8005\u306E\u624B\u52A9\u3051\u3092\u3059\u308B\u3092\u3044\u3046\u3002"@ja ,
+		"Pies towarzysz\u0105cy, pies opiekun (ang. assistance dog, service dog) \u2013 pies specjalnie szkolony w celu pomocy osobom niepe\u0142nosprawnym: pies przewodnik (guide dog, seeing eye dog, fr. chien guide d'aveugle) \u2013 pies szkolony na przewodnika dla niewidomego lub niedowidz\u0105cego. pies dla nies\u0142ysz\u0105cego (hearing dog, hearing ear dog) \u2013 pies szkolony w kierunku rozpoznawania odg\u0142os\u00F3w domowych i wskazywania ich nies\u0142ysz\u0105cemu lub niedos\u0142ysz\u0105cemu. Specjalnie szkolony jest: pies opiekun, kt\u00F3ry reaguje w przypadku ataku choroby, lub innych przypadkach medycznych \u2013 w\u0142\u0105czy alarm, sprowadzi do chorego inn\u0105 osob\u0119, lub ostrzega o zbli\u017Caj\u0105cym si\u0119 ataku choroby (stwierdzono, \u017Ce psy wyczuwaj\u0105 np. zbli\u017Caj\u0105cy si\u0119 atak epilepsji).Typowe zadania wykonywane przez psa towarzysz\u0105cego to wyszukiwanie i podawanie przedmiot\u00F3w, naciskanie przycisk\u00F3w, poci\u0105ganie za klamki, sygnalizowanie stan\u00F3w zagro\u017Cenia itp.Zadania wykonywane przez psa dla nies\u0142ysz\u0105cych polegaj\u0105 na reagowaniu i doprowadzaniu osoby do \u017Ar\u00F3de\u0142 d\u017Awi\u0119k\u00F3w takich jak dzwonek do drzwi, telefon, zegar do gotowania, sygna\u0142 wzywania pomocy, p\u0142acz dziecka, budzik, czy te\u017C d\u017Awi\u0119kach alarmuj\u0105cych o niebezpiecze\u0144stwie, takich jak alarm dymowy, po\u017Carowy lub obecno\u015Bci tlenku w\u0119gla.Psy selekcjonowane do asystowania niepe\u0142nosprawnym musz\u0105 wykazywa\u0107 ch\u0119\u0107 wsp\u00F3\u0142pracy z cz\u0142owiekiem, by\u0107 zr\u00F3wnowa\u017Cone, nieagresywne, pozbawione sk\u0142onno\u015Bci do dominacji, musz\u0105 r\u00F3wnie\u017C umie\u0107 przez d\u0142u\u017Csz\u0105 chwil\u0119 skupi\u0107 uwag\u0119 na jednej rzeczy. Nie mog\u0105 by\u0107 l\u0119kliwe i zbytnio indywidualne. Szkolenie rozpoczyna si\u0119 w wieku 10\u201312 miesi\u0119cy i trwa p\u00F3\u0142 roku. Potem odbywa si\u0119 szkolenie wraz z niepe\u0142nosprawnym, dla uwzgl\u0119dnienia jego indywidualnych potrzeb.Szkoleniem ps\u00F3w zajmuj\u0105 si\u0119 m.in. organizacje skupione w Assistance Dogs Europe."@pl ,
+		"Ein Assistenzhund, auch Rehabilitationshund genannt, ist ein Hund, der so ausgesucht und ausgebildet wird, dass er in der Lage ist, einem Menschen mit k\u00F6rperlichen oder geistigen Einschr\u00E4nkungen ausgefallene oder fehlende Sinnes- und/oder K\u00F6rperfunktionen so gut wie m\u00F6glich zu ersetzen.Die h\u00E4ufigste und bekannteste Form von Assistenzhunden sind Blindenf\u00FChrhunde. Daneben gibt es beispielsweise Signalhunde, Diabetikerwarnhunde, Epilepsiehunde und Kombinationshunde."@de ,
+		"Un perro de asistencia, es aquel entrenado para ayudar y asistir a una persona con discapacidad.Muchos de ellos son entrenados por asociaciones espec\u00EDficas, mientras otras lo son por los propios usuarios con o sin ayuda de un entrenador canino profesional."@es ,
+		"Een assistentiehond is een hond die speciaal getraind is om mensen met een handicap te helpen.Volgens Assistance Dogs International zijn er drie soorten assistentiehonden: Geleidehonden voor de blinden en visueel beperkten Signaalhonden voor de doven en slechthorendenADL-honden of hulphonden voor mensen met een andere beperking die niet visueel of auditief is, waaronder de epilepsiehond en de autismegeleidehond.In Nederland houden vijf opleidingsinstituten zich bezig met de opleiding en training van assistentiehonden.In Belgi\u00EB leiden 12 verenigingen assistentiehonden op. Het gaat hier over blindengeleidehonden, hulphonden, epilepsiehonden en signaalhonden."@nl ;
+	dbpedia-owl:wikiPageID	203719 ;
+	dbpedia-owl:wikiPageRevisionID	588524399 ;
+	dbpedia-owl:wikiPageExternalLink	<http://www.adionline.org> ,
+		<http://www.dmoz.org/Society/Disabled/Service_Animals/Dogs/> ,
+		<http://www.deltasociety.org/Page.aspx?pid=302> ,
+		<http://sdog.danawheels.net> ,
+		<http://www.registeredservicedogs.com> ,
+		<http://www.servicedogcentral.org> ,
+		<http://www.iaadp.org> .
+<http://dbpedia.org/resource/Orca_(dog)>	dbpprop:occupation	dbpedia:Assistance_dog .
+dbpedia:Assistance	dbpedia-owl:wikiPageDisambiguates	dbpedia:Assistance_dog .
+dbpedia:Assistance_dogs	dbpedia-owl:wikiPageRedirects	dbpedia:Assistance_dog .
+dbpedia:Assistance_Dogs	dbpedia-owl:wikiPageRedirects	dbpedia:Assistance_dog .
+<http://dbpedia.org/resource/Assistance_dogs,_definition>	dbpedia-owl:wikiPageRedirects	dbpedia:Assistance_dog .
+dbpedia:Perro_de_asistencia	dbpedia-owl:wikiPageRedirects	dbpedia:Assistance_dog .
