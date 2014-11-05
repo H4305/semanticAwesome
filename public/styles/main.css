@@ -83,9 +83,12 @@ small {
 .search-input {
   position: relative;
   width: 500px;
-  line-height: 16px;
-  font-size: 18px;
-  padding: 20px;
+  line-height: 30px;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
   margin-right: auto;
   margin-left: 0;
   margin-top: 0%;
@@ -116,4 +119,8 @@ small {
     -o-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
     transform: rotate(-15deg);
+}
+
+.ui-autocomplete .highlight {
+  text-decoration: underline;
 }

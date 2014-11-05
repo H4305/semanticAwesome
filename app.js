@@ -34,13 +34,14 @@ app.use(express.static('public'));
 app.route('/autoComplete/:query').get(function(req,res){
 
 	prefix.getResources(req.params.query, function(LabelsList) {
-		var jSonResult = "{\"Labels\": ";
+		var jSonResult = "{\"Labels\": [";
 
 		LabelsList.forEach(function(Label) {
 			jSonResult += "\"" + Label + "\",";
 		});
 		jSonResult = jSonResult.substring(0, jSonResult.length-1);
-		jSonResult += "}";
+		jSonResult += "]}";
+
 		res.send(jSonResult);
 
 	});

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link
+ rel="stylesheet"
+ href="http://code.jquery.com/ui/1.9.0/themes/smoothness/jquery-ui.css" />
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/styles/main.css">
@@ -13,11 +17,12 @@
     <h2><span class="subtitle">Easy. Fast. Strong.</span></h2>
     
     <div class="inputSearch">
-      <input id="searchQuery" type="text" class="search-input">
+      <input id="searchQuery" type="text" class="search-input" onKeyUp="edValueKeyPress()">
 
       <img id="search-img" src="/img/Search.png"></img>
     </div>
   <script>
+
     document.getElementById("search-img").addEventListener('click', function() {
       window.location = "/search?q="+searchQuery.value;
     })
@@ -30,52 +35,60 @@
  
     });
 
-    var substringMatcher = function(strs) {
-      return function findMatches(q, cb) {
-        var matches, substrRegex;
-     
-        // an array that will be populated with substring matches
-        matches = [];
-     
-        // regex used to determine if a string contains the substring `q`
-        substrRegex = new RegExp(q, 'i');
-     
-        // iterate through the pool of strings and for any string that
-        // contains the substring `q`, add it to the `matches` array
-        $.each(strs, function(i, str) {
-          if (substrRegex.test(str)) {
-            // the typeahead jQuery plugin expects suggestions to a
-            // JavaScript object, refer to typeahead docs for more info
-            matches.push({ value: str });
-          }
-        });
-     
-        cb(matches);
-      };
-    };
-     
-    var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
-      'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
-      'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
-      'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
-      'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
-      'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
-      'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
-      'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
-      'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
-    ];
-     
-    $('#the-basics .typeahead').typeahead({
-      hint: true,
-      highlight: true,
-      minLength: 1
-    },
-    {
-      name: 'states',
-      displayKey: 'value',
-      source: substringMatcher(states)
-    });
     
+    function edValueKeyPress()
+    {
+      const AUTOCOMPLETE = "http://0.0.0.0:3000/autoComplete/";
+
+      var query = searchQuery.value;
+
+      if(query && query.length>1)
+      { 
+        var jsonResponse = JSON.parse(httpGet(AUTOCOMPLETE + query));
+
+        var labels = [jsonResponse['Labels'][0]];
+
+        for(i=1; i<jsonResponse['Labels'].length; i++)
+        {
+          labels.push(jsonResponse['Labels'][i]);
+        }
+        
+        /*
+     * jQuery UI Autocomplete: Highlight Matched Text
+     * http://salman-w.blogspot.com/2013/12/jquery-ui-autocomplete-examples.html
+     */
+    $(function() {
+      function highlightText(text, $node) {
+        var searchText = $.trim(text).toLowerCase(), currentNode = $node.get(0).firstChild, matchIndex, newTextNode, newSpanNode;
+        while ((matchIndex = currentNode.data.toLowerCase().indexOf(searchText)) >= 0) {
+          newTextNode = currentNode.splitText(matchIndex);
+          currentNode = newTextNode.splitText(searchText.length);
+          newSpanNode = document.createElement("span");
+          newSpanNode.className = "highlight";
+          currentNode.parentNode.insertBefore(newSpanNode, currentNode);
+          newSpanNode.appendChild(newTextNode);
+        }
+      }
+      $("#searchQuery").autocomplete({
+        source: labels
+      }).data("ui-autocomplete")._renderItem = function(a, item) {
+        var $a = $("<a></a>").text(item.label);
+        highlightText(this.term, $a);
+        return $("<a></a>").append($a).appendTo(a);
+      };
+    });
+      }
+    }
+
+    function httpGet(theUrl)
+    {
+        var xmlHttp = null;
+
+        xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", theUrl, false );
+        xmlHttp.send( null );
+        return xmlHttp.responseText;
+    }
 
   </script>
 
