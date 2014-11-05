@@ -21,6 +21,8 @@
     </div>
   <script>
 
+    const AUTOCOMPLETE = "autoComplete/";
+
     document.getElementById("search-img").addEventListener('click', function() {
       window.location = "/search?q="+searchQuery.value;
     })
@@ -36,11 +38,9 @@
     
     function edValueKeyPress()
     {
-      const AUTOCOMPLETE = "autoComplete/";
-
       var query = searchQuery.value;
 
-      if(query && query.length>1)
+      if(query && query.length>0)
       { 
         var jsonResponse = JSON.parse(httpGet(AUTOCOMPLETE + query));
 
