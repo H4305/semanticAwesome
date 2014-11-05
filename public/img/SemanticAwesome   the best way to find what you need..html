@@ -2,7 +2,9 @@
 <html lang="en">
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/smoothness/jquery-ui.css" />
+<link
+ rel="stylesheet"
+ href="http://code.jquery.com/ui/1.9.0/themes/smoothness/jquery-ui.css" />
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/styles/main.css">
@@ -17,11 +19,9 @@
     <div class="inputSearch">
       <input id="searchQuery" type="text" class="search-input" onKeyUp="edValueKeyPress()">
 
-      <img id="search-img" src="/img/Search.png" />
+      <img id="search-img" src="/img/Search.png"></img>
     </div>
   <script>
-
-    const AUTOCOMPLETE = "autoComplete/";
 
     document.getElementById("search-img").addEventListener('click', function() {
       window.location = "/search?q="+searchQuery.value;
@@ -38,9 +38,11 @@
     
     function edValueKeyPress()
     {
+      const AUTOCOMPLETE = "http://0.0.0.0:3000/autoComplete/";
+
       var query = searchQuery.value;
 
-      if(query && query.length>0)
+      if(query && query.length>1)
       { 
         var jsonResponse = JSON.parse(httpGet(AUTOCOMPLETE + query));
 
