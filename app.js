@@ -14,10 +14,11 @@ var mustacheExpress = require('mustache-express');
 
 app.route('/search').get(function(req,res,next){
 
-	var results = "Bonjour";
+	res.render('results');
+	/*var results = "Bonjour";
   	res.send("Bonjour : " + req.query.q);
 
-	res.send(results);
+	res.send(results);*/
   	
 });
 

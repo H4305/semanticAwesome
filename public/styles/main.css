@@ -94,6 +94,7 @@ small {
   margin-top: 0%;
   margin-bottom: 0%;
   border:1px solid #fff;
+  outline: none;
 }
 
 #search-img {
