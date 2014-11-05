@@ -32,6 +32,8 @@ module.exports = (function() {
       var responseObj = null;
       if(!error) {
         responseObj = JSON.parse(body);
+      } else {
+        console.log(error);
       }
       callback(responseObj);
     });
@@ -55,6 +57,7 @@ module.exports = (function() {
       requestSpotlight(text, function (object) {
         if(object == null) {
           console.log("Empty object cant be annotated.");
+          callback(null);
           return null;
         }
         var annotation = object.annotation;

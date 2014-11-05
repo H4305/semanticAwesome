@@ -1,7 +1,7 @@
 var request = require('request');
 
 module.exports = (function() {
-  const KEY = "3d94ba5add4573f225632a2dda7ca1d76f89d5ca";
+  const KEY = "9ae8bc8fe56173039db817b0f95b7eacdcdd99be";//"3d94ba5add4573f225632a2dda7ca1d76f89d5ca";
   const ALCHEMY = "http://access.alchemyapi.com/calls/url/URLGetText";
 
   /* requestAlchemy

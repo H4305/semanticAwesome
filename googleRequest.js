@@ -3,8 +3,10 @@ var request = require('request');
 module.exports = (function() {
 
   const GOOGLE = "https://www.googleapis.com/customsearch/v1";  
-  const GKEY = "AIzaSyDTKQHpVvvyAiVBF92GH4E0CE-fHSkr16E";
-  const CX = "011944880399546755950%3Ar7ud99txd5w";
+  //const GKEY = "AIzaSyDTKQHpVvvyAiVBF92GH4E0CE-fHSkr16E";
+  //const CX = "011944880399546755950%3Ar7ud99txd5w";
+  const CX = "004360846813815963957:ulxk4vc-sbk";
+  const GKEY = "AIzaSyB-OGRRBHqqDKURZGhAHOL6MIbj2nP4cJc";
 
   /* requestGoogle
    * Sends a request to google custom search API.
@@ -14,7 +16,7 @@ module.exports = (function() {
 
   function requestGoogle(query, callback) {
 
-    var args = "?key=" + GKEY + "&cx=" + CX + "&q=" + query;
+    var args = "?key=" + GKEY + "&cx=" + CX + "&q=" + encodeURI(query);
 
     request({
       uri: GOOGLE + args,
