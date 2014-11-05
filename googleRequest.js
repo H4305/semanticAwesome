@@ -53,7 +53,7 @@ module.exports = (function() {
 
       var resources = {};
 
-      //Sends the request 
+      //Sends the request
       requestGoogle(query, function (object) {
 
         if(object == null) {
@@ -61,20 +61,22 @@ module.exports = (function() {
           console.log("No results for query:" + query);
           return null;
 
-        }	
-		    
+        }
+
         var JSONObjSize = object['items'].length;
 
         var URIList = [object['items'][0]['link']];
+        var TitleList = [[object['items'][0]['htmlTitle'],object['items'][0]['htmlSnippet']]];
 
-        console.log("LENGTH = " + JSONObjSize);
+        //console.log("LENGTH = " + JSONObjSize);
 
         for (i = 1; i < JSONObjSize; i++)
-        { 
+        {
           URIList.push(object['items'][i]['link']);
+          TitleList.push([object['items'][i]['htmlTitle'], object['items'][i]['htmlSnippet']]);
         }
 
-        callback(URIList);
+        callback(URIList, TitleList);
 
       });
     }
