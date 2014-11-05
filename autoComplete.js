@@ -82,8 +82,12 @@ module.exports = (function() {
         var JSONObjSize = object['query']['allpages'].length;
 
         if(JSONObjSize<1)
-        {
-          return [];
+        { 
+          var URIList = "noValue";
+
+          callback(URIList);
+
+          return;
         }
 
         var URIList = [object['query']['allpages'][0]['title']];

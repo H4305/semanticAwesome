@@ -58,24 +58,21 @@ app.route('/autoComplete/:query').get(function(req,res){
 
 	prefix.getResources(req.params.query, function(LabelsList) {
 
-		if(LabelsList.length>0)
-		{
-			var jSonResult = "{\"Labels\": [";
+			if(LabelsList!="noValue")
+			{	
+				var jSonResult = "{\"Labels\": [";
 
-			LabelsList.forEach(function(Label) {
-				jSonResult += "\"" + Label + "\",";
-			});
-			jSonResult = jSonResult.substring(0, jSonResult.length-1);
-			jSonResult += "]}";
+				LabelsList.forEach(function(Label) {
+					jSonResult += "\"" + Label + "\",";
+				});
+				jSonResult = jSonResult.substring(0, jSonResult.length-1);
+				jSonResult += "]}";
 
-			res.send(jSonResult);
-
-		}else
-		{	
-			console.log("NO RESULTS");
-			res.send("{\"Result\" : \"null\" ");
-		}
-
+				res.send(jSonResult);
+			}else
+			{	
+				res.send("noValue");
+			}
 	});
 });
 
@@ -90,13 +87,14 @@ function makeRequest(request, callback) {
 		if(!URIListGoogle || !URIListGoogle.length || !URIListGoogle.length)
 			return null;
 		var cpt = 0;
-		//console.log(URIListGoogle);
+		console.log(URIListGoogle);
 		URIListGoogle.forEach(function(URIgoogle) {
 			alchemy.getResources(URIgoogle, function (content_text) {
 				//console.log(URIgoogle);
+				//console.log(content_text);
 				spotlight.getResources(content_text, function (URIList) {
-					//console.log(URIgoogle);
-					//console.log(URIList);
+					console.log(URIgoogle);
+					console.log(URIList);
 					if(!URIList) {
 						_.sortBy(results, function(elem){
 							return elem[1];
@@ -116,7 +114,7 @@ function makeRequest(request, callback) {
 
 						//console.log(resultRankingRow);
 						results.push(resultRankingRow);
-						console.log(results.length == URIListGoogle.length);
+						console.log(results.length == URIListGoogle.length - 5);
 						if(results.length == URIListGoogle.length - 5) {
 							_.sortBy(results, function(elem){
 								return elem[1];

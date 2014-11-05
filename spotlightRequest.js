@@ -4,7 +4,7 @@ module.exports = (function() {
 
   const RESOURCE_URI = "http://dbpedia.org/resource/";
   const DBPEDIA_SPOTLIGHT = "http://spotlight.dbpedia.org/rest/candidates";
-  const BASE_CONFIDENCE = "0.3";
+  const BASE_CONFIDENCE = "0";
 
   var confidence = BASE_CONFIDENCE;
 
