@@ -110,14 +110,14 @@ function makeRequest(request, callback) {
 						var resultRankingRow = [];
 						resultRankingRow[0] = URIgoogle;
 						resultRankingRow[1] = coeffJacard;
-						resultRankingRow[2] = rangGoogle++;
+						resultRankingRow[2] = URIListGoogle.indexOf(URIgoogle);
 						resultRankingRow[3] = titleListGoogle[cpt][0];
 						resultRankingRow[4] = titleListGoogle[cpt++][1];
 
 						//console.log(resultRankingRow);
 						results.push(resultRankingRow);
 						console.log(results.length == URIListGoogle.length);
-						if(results.length == URIListGoogle.length) {
+						if(results.length == URIListGoogle.length - 5) {
 							_.sortBy(results, function(elem){
 								return elem[1];
 							});
