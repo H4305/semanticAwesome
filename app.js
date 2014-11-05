@@ -35,15 +35,24 @@ app.use(express.static('public'));
 app.route('/autoComplete/:query').get(function(req,res){
 
 	prefix.getResources(req.params.query, function(LabelsList) {
-		var jSonResult = "{\"Labels\": [";
 
-		LabelsList.forEach(function(Label) {
-			jSonResult += "\"" + Label + "\",";
-		});
-		jSonResult = jSonResult.substring(0, jSonResult.length-1);
-		jSonResult += "]}";
+		if(LabelsList.length>0)
+		{
+			var jSonResult = "{\"Labels\": [";
 
-		res.send(jSonResult);
+			LabelsList.forEach(function(Label) {
+				jSonResult += "\"" + Label + "\",";
+			});
+			jSonResult = jSonResult.substring(0, jSonResult.length-1);
+			jSonResult += "]}";
+
+			res.send(jSonResult);
+
+		}else
+		{	
+			console.log("NO RESULTS");
+			res.send("{\"Result\" : \"null\" ");
+		}
 
 	});
   	
