@@ -6,16 +6,34 @@
   <link rel="stylesheet" href="/styles/results.css">
   <link rel="Shortcut Icon" href="/img/icon.png">
   <title>{{query}} - SemanticAwesome</title>
+  
+
+  
 </head>
 <body>
   <div class="headerDiv">
     <h1><span class="blue">Sem</span><span class="red">ant</span><span class="yellow">ic</span><span class="blue">Awe</span><span class="red">some</span></h1>
     
-    <div class="inputSearch">
+    <div id="divSearch" class="inputSearch">
       <input id="searchQuery" type="text" class="search-input" value="{{query}}">
-      <img id="search-img" src="/img/Search.png">
+      <img id="search-img" src="/img/Search.png" />
     </div>
   </div>
+    <script>
+
+    const AUTOCOMPLETE = "autoComplete/";
+
+    document.getElementById("search-img").addEventListener('click', function() {
+      window.location = "/search?q="+searchQuery.value;
+    });
+	
+
+	
+	document.getElementById("divSearch").addEventListener('click', function(event) {
+		document.getElementById("divSearch").style.width = "600px";
+		document.getElementById("searchQuery").style.width = "500px";
+    });
+	</script>
   <div class="resultatsList">
     {{#results}}
       <div class="resultat">
