@@ -27,6 +27,9 @@ h1 {
 .yellow {
   color:#fdb72f;
 }
+.green {
+  color:#009C58;
+}
 
 h2 {
   font-family: Georgia, Times, "Times New Roman", sans-serif;
@@ -61,7 +64,7 @@ small {
     width: 90%;
 }
 
-.inputSearch:hover {
+.inputSearch:hover, .inputSearch:focus {
   box-shadow: 0px 0px 8px 2px #66CD00;
 }
 

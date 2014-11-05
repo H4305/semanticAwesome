@@ -3,20 +3,23 @@ var request = require('request');
 module.exports = (function() {
 
   const DBPEDIAPRX = "http://lookup.dbpedia.org/api/search/PrefixSearch";
-  var MaxHits = 4;
+  const WIKI = "http://en.wikipedia.org/w/api.php";
+  var MaxHits = 5;
  
   /* autoComplete
-   * Sends a request to google custom search API.
+   * Sends a request to wikipedia.
    * @param text the text argument
    * @param callback the callback function to execute when ready
    */
 
   function autoComplete(query, callback) {
 
-    var args = "?QueryClass=&MaxHits=" + MaxHits + "&QueryString=" + query;
+    var argsB = "?QueryClass=&MaxHits=" + MaxHits + "&QueryString=" + query;
+    var args = "?format=json&action=query&list=allpages&apprefix=" + query + "&aplimit=" + MaxHits;
 
     request({
-      uri: DBPEDIAPRX + args,
+      //uri: "http://en.wikipedia.org/w/api.php?format=json&action=query&list=allpages&apprefix=ber&aplimit=2",
+      uri: WIKI + args,
       method: "GET",
       timeout: 30000,
       followRedirect: true,
@@ -62,8 +65,9 @@ module.exports = (function() {
 
         }	
 
-        var JSONObjSize = object['results'].length;
+        //var JSONObjSize = object['results'].length;
 
+        /*
         var URIList = [object['results'][0]['label']];
 
         console.log("LENGTH = " + JSONObjSize);
@@ -72,6 +76,24 @@ module.exports = (function() {
         { 
           URIList.push(object['results'][i]['label']);
           console.log(object['results'][i]['label']);
+        }
+        */
+
+        var JSONObjSize = object['query']['allpages'].length;
+
+        if(JSONObjSize<1)
+        {
+          return [];
+        }
+
+        var URIList = [object['query']['allpages'][0]['title']];
+
+        //console.log("LENGTH = " + JSONObjSize);
+        console.log(object['query']);
+
+        for (i = 1; i < JSONObjSize; i++)
+        { 
+          URIList.push(object['query']['allpages'][i]['title']);
         }
         
         callback(URIList);
