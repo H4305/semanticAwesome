@@ -17,18 +17,13 @@
     </div>
   </div>
   <div class="resultatsList">
-    <div class="resultat">
-      <h3><span class="g-rank">1</span><a href="">title</a></h3>
-      <span class="url">http://www.blabla.com</span>
-    </div>
-    <div class="resultat">
-      <h3><span class="g-rank">1</span><a href="">title</a></h3>
-      <span class="url">http://www.blabla.com</span>
-    </div>
-    <div class="resultat">
-      <h3><span class="g-rank">1</span><a href="">title</a></h3>
-      <span class="url">http://www.blabla.com</span>
-    </div>
+    {{#results}}
+      <div class="resultat">
+        <h3><span class="g-rank">{{gindex}}</span><a href="{{url}}">{{{title}}}</a></h3>
+        <span class="url">{{url}}</span>
+        <p class="snippet">{{{description}}}</p>
+      </div>
+      {{/results}}
   </div>
 </body>
 </html>

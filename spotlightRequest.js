@@ -58,6 +58,13 @@ module.exports = (function() {
           return null;
         }
         var annotation = object.annotation;
+        if(!annotation || !annotation.surfaceForm) {
+          callback(null);
+          return;
+        }
+        if(!annotation.surfaceForm.length) {
+          annotation.surfaceForm = [annotation.surfaceForm];
+        }
         annotation.surfaceForm.forEach(function (data) {
           if(data.resource) {
             //If it's an array, length will not be undefined
